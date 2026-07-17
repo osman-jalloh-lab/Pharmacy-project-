@@ -121,6 +121,6 @@ app.get("/pharmacy-storefront-desktop.html", (req,res)=>res.sendFile(path.join(c
 app.use((req,res)=>res.status(404).json({error:"not_found",message:"The requested resource was not found."}));
 app.use((error,req,res,next)=>{if(error instanceof ZodError)return res.status(400).json({error:"validation_error",message:"The request was not valid.",issues:error.issues.map(i=>({path:i.path.join("."),message:i.message}))});if(error.message==="Origin is not allowed.")return res.status(403).json({error:"origin_denied"});console.error(JSON.stringify({at:new Date().toISOString(),error:error.message,path:req.path}));res.status(500).json({error:"server_error",message:"The server could not complete the request."});});
 
-if (process.env.NODE_ENV !== "test") app.listen(config.port,config.host,()=>{console.log(`Frontend: http://localhost:${config.port}`);console.log(`API health: http://localhost:${config.port}/api/health`);console.log(`Admin (local only): http://localhost:${config.port}/admin`);});
+if (process.env.NODE_ENV !== "test" && !config.onVercel) app.listen(config.port,config.host,()=>{console.log(`Frontend: http://localhost:${config.port}`);console.log(`API health: http://localhost:${config.port}/api/health`);console.log(`Admin (local only): http://localhost:${config.port}/admin`);});
 
 export default app;

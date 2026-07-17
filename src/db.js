@@ -8,6 +8,10 @@ let instance;
 export function getDb() {
   if (!instance) {
     fs.mkdirSync(path.dirname(config.dbPath), { recursive: true });
+    // Serverless cold start: seed the writable /tmp database from the copy baked at build time.
+    if (config.onVercel && !fs.existsSync(config.dbPath) && fs.existsSync(config.bakedDbPath)) {
+      fs.copyFileSync(config.bakedDbPath, config.dbPath);
+    }
     instance = new DatabaseSync(config.dbPath);
     instance.exec("PRAGMA foreign_keys=ON; PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000;");
   }

@@ -1,0 +1,11 @@
+{
+  "buildCommand": "node --no-warnings scripts/vercel-build.js",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" }
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "data/pharmacy.db"
+    }
+  }
+}
