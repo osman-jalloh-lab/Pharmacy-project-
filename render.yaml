@@ -1,0 +1,33 @@
+# Render Blueprint: deploys the Express + SQLite app as-is.
+#
+# Free plan note: the filesystem is ephemeral, so the start command rebuilds the
+# database (schema, product/image import, demo pricing, fixtures) on every boot.
+# Stored inquiries and orders are therefore lost on restart/redeploy on the free
+# plan; attach a paid persistent disk mounted at /opt/render/project/src/data to
+# keep them.
+#
+# NODE_ENV is deliberately "demo" (not "production"): the seed scripts refuse to
+# run in production, and this deployment intentionally serves fake demo pricing.
+# The admin console stays disabled remotely unless ALLOW_REMOTE_ADMIN=true.
+services:
+  - type: web
+    name: grace-care-pharmacy
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm run migrate && npm run import-products && npm run seed:demo && npm run seed:fixtures && npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: demo
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: ALLOWED_ORIGINS
+        value: https://grace-care-pharmacy.onrender.com
+      - key: ALLOW_REMOTE_ADMIN
+        value: "false"
+      - key: ADMIN_PASSWORD
+        generateValue: true
