@@ -5,7 +5,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "data/pharmacy.db"
+      "includeFiles": "{data/pharmacy.db,src/schema.sql}"
     }
   }
 }
