@@ -1,0 +1,33 @@
+{
+  "name": "grace-care-pharmacy-catalogue",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Database-backed medicine catalogue and availability inquiry system for Sierra Leone.",
+  "scripts": {
+    "dev": "node --watch --no-warnings server.js",
+    "start": "node --no-warnings server.js",
+    "migrate": "node --no-warnings scripts/migrate.js",
+    "seed": "node --no-warnings scripts/import-products.js",
+    "import-products": "node --no-warnings scripts/import-products.js",
+    "enrich:dailymed": "node --no-warnings scripts/enrich-dailymed.js",
+    "seed:fixtures": "node --no-warnings scripts/seed-wholesale-fixtures.js",
+    "seed:demo": "node --no-warnings scripts/seed-demo-wholesale.js",
+    "test": "node --no-warnings --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "image-size": "^2.0.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.61.1"
+  }
+}

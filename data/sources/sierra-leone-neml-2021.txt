@@ -1,0 +1,1908 @@
+
+--- PAGE 1 ---
+ 
+
+--- PAGE 2 ---
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Any part of this document may be freely quoted, reproduced, or 
+translated in full or in part, provided the source is acknowledged. It 
+must not be sold or used for commercial purposes for profit  
+ 
+Revised Essential Medicines List Year 2021 Edition 
+  
+Published by: Ministry of Health and Sanitation 
+4th Floor Youyi Building 
+Brookfields 
+Freetown 
+Sierra Leone  
+ 
+ 
+The Ministry of Health  and Sanitation has taken all reasonable precautions  to verify the information contained in this 
+publication. However, the published material is being distributed without warranty of any kind and the responsibility for the 
+interpretation and use of this book rests solely with the reader. 
+ 
+  
+--- PAGE 3 ---
+2 
+ 
+Table of Contents 
+FOREWORD i 
+ACKNOWLEDGEMENTS ii 
+PREFACE iii 
+ESSENTIAL MEDICINES LIST 1 
+INDEX 22 
+ 
+ 
+--- PAGE 4 ---
+i 
+ 
+FOREWORD 
+Ensuring medicines security for poor, vulnerable, and hard -to-reach 
+communities is a priority of the Government of Sierra Leone. This 
+remains a key driving force behind the Free Health Care Initiative 
+currently in place principally for pregnant women, lactating mothers, and 
+children under -five years old . However , meeting the pharmaceutical 
+demands of the population poses a challenge to all countries especially 
+low-income countries, which have several competing priorities. It is for these reasons that the use 
+of the World Health Organization’s guidelines for the selection of Essential Medicines for public 
+health sector provision becomes very critical for the management of the overall health sector 
+budget. 
+ 
+Whilst the public health needs and cost-effectiveness of these health products are very important 
+factors that influenced the selection process, close attention was also paid to the safety and 
+efficacy of the medicines. 
+ 
+The approach of linking the revision of the Essential Medicines List to the revision of the 
+treatment schedules for the National Basic Health Care Packages is an innovative one. We have 
+also taken into consideration health data from the major health facilities in the country and the 
+utilization of laboratory data on the susceptibility trends to the available antimicrobial agents. The 
+approach will ensure a strong link between priority health needs and the Essential Medicines List. 
+ 
+The year 2021 edition of the Essential Medicines List also contains the categorization of 
+medicines according to their indications and healthcare levels of use. This is to promote rational 
+medicines use and improved patient safety. 
+ 
+It is hoped that the efforts of all stakeholders in ensuring medicines security for our population 
+are achieved. 
+  
+Minister of Health and Sanitation 
+Government of the Republic of Sierra Leone 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 5 ---
+ii 
+ 
+ACKNOWLEDGEMENTS 
+The Revised Essential Medicines List has been produced with the collective inputs of health 
+professionals, development partners, donors and individuals within and outside the  Ministry of 
+Health And Sanitation. The Ministry of Health and Sanitation (MOHS) wishes to thank the World 
+Health Organization (WHO) for the technical and financial support provided to the updating of 
+the year 2016 Essential Medicines List into the year 2021 edition. The financial input from WACI 
+Health to include thermostable Carbetocin and other reproductive health products into the revised 
+EML is highly appreciated. 
+Special thanks also go to all the members of the Technical Working Group: these members  
+include technical staff of the Directo rate of Pharmaceutical Services,  selected staff of MOHS 
+directorates, Reproductive Health/ Family Planning program  and other national disease control 
+programs, representatives from UNFPA and UNICEF, who contributed greatly in the revision of 
+the Essential Medicines List  year 2016 edition . It is our hope that the Directorate of 
+Pharmaceutical Services , in collaboration with stakeholders,  will continue to provide both 
+technical and administrative leadership in the implementation of the provisions of pharmaceutical 
+policy documents including the Essential Medicine List year 2021. 
+  
+Dr. Sattie M. Kenneh 
+Chief Medical Officer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+--- PAGE 6 ---
+iii 
+ 
+PREFACE 
+ 
+Essential medicines as defined by WHO are those medicines that satisfy the priority health needs 
+of the population. The national Essential Medicines List (EML) is used to guide the importation 
+and distribution, prescription, and dispensing of medicines in a country. The main users of the 
+Essential Medicines List are the Medicines Control Authority for import control and managers of 
+the public pha rmaceutical supply chain management system. The national EML also informs 
+clinicians on medicines available in the public health sector medicines supply chain. 
+ 
+For the national Essential Medicines List to fully serve the intended purposes, it should be revised 
+every three years to accommodate new developments in the international market and the changing 
+public health demands. However, medicines for the management of emerging and re -emerging 
+diseases will be addressed promptly when the need arises and in exceptional cases, application to 
+obtain non -listed items could be considered by the Ministry of Health And Sanitat ion, on the 
+advice of the Directorate of Pharmaceutical Services 
+ 
+Another purpose of revising the national EML is to remove or re-classify products based on safety 
+information generated locally or from other credible sources like the WHO. This  latest edition, 
+which is a revision of the year 2016 Essential Medicines List, categorizes/classifies medicines by 
+health care level of use. 
+ 
+ 
+ 
+ 
+  
+--- PAGE 7 ---
+iv 
+ 
+Membership of the National Medicines Committee (NMC) 
+1. Chief Medical Officer, MOHS 
+2. Permanent Secretary, MOHS 
+3. Chief Pharmacist/ Director of Pharmaceutical Services, MOHS 
+4. Registrar of the Pharmacy Board of Sierra Leone 
+5. Deputy Vice Chancellor, College of Medicine and Allied Health Sciences, University of 
+Sierra Leone 
+6.  Dean, Faculty of Pharmaceutical Sciences, University of Sierra Leone 
+7.  Board Chairman, National Medical Supplies Agency 
+8. Managing Director, National Medical Supplies Agency 
+9. Deputy Managing Director, National Medical Supplies Agency 
+10.  Director of Hospital and Laboratory Services, MOHS 
+11.  Director of Primary Health Care Services, MOHS 
+12.  Director of Health Systems Planning, Policy and Information, MOHS 
+13.  Director of Training and Research 
+14.  Director of Disease Control and Prevention Program, MOHS 
+15.  Director, Reproductive and Child Health, MOHS 
+16. Director of Nutrition, MOHS 
+17.  Director of Nursing and Midwifery Services, MOHS 
+18.  Hospital Medical Superintendent, Connaught Hospital 
+19.  Hospital Medical Superintendent, Princess Christian Maternity Hospital 
+20.  Hospital Medical Superintendent, Ola During Children’s Hospital 
+21.  Hospital Medical Superintendent, Kissy Mental Hospital 
+22.  Manager, Health System Strengthening 
+23. Program Manager, National Malaria Control Program, MOHS 
+24. Program Manager, TB/Leprosy Control Program, MOHS 
+25. Program Manager, HIV/AIDS/STI Control Program, MOHs 
+26. Program Manager, Maternal and Child Health/EPI Program, MOHS 
+27. Program Manager, Reproductive Health and Family Planning Program, MOHS 
+28. Manager, Laboratory Services 
+29. Program Manager – Disease Surveillance Program 
+30. Focal Person for Traditional Medicine, MOHS 
+31. Representative of the Pharmaceutical Society of Sierra Leone 
+32. Representative of the Medical and Dental Council of Sierra Leone 
+33. Representative of the Nurses and Midwifery Board of Sierra Leone 
+34. Representative of the Private Medical Practitioners of Sierra Leone 
+35. Representative of WHO 
+36. Representative of UNICEF 
+37. Representative of UNFPA 
+ 
+ 
+ 
+--- PAGE 8 ---
+v 
+ 
+ 
+SECRETARIAT OF THE NATIONAL MEDICINES LIST COMMITTEE 
+No. Designation Name 
+1.  Chief Pharmacist/ Director of Pharmaceutical Services Pharm. Michael Jack 
+Lansana 
+2.  Deputy Chief Pharmacist/ Director, Directorate of Pharmaceutical 
+Services (DPS) 
+Dr. Dennis T. Thomas 
+3.  Registrar, Pharmacy Board of Sierra Leone Dr. James P. Komeh 
+4.  Managing Director, National Medical Supplies Agency Dr. Lawrence Sandi 
+5.  Principal Pharmacist, Head of Governance (Policy, Planning, 
+Strategy, Coordination and Advocacy), DPS 
+Dr. Muhamed D. Mansaray 
+6.  Principal Pharmacist, Head Quality Assurance and Drug 
+Information Services, DPS 
+Dr. Shuwary H. A. Barlatt 
+7.  Principal Pharmacist, Head of Pharmaceutical Management 
+Information Systems, DPS 
+Dr. Henry E. C. Carter 
+8.  Senior Pharmacist, Head of Rational Medicines Use and 
+Antimicrobial Stewardship, DPS 
+Pharm. Jennet M. Buck 
+9.  Pharmacist, Governance (Policy, Planning, Strategy, 
+Coordination and Advocacy) Department, DPS 
+Pharm. Yusuf Marah 
+10.  Pharmacist, Governance (Policy, Planning, Strategy, 
+Coordination and Advocacy) Department, DPS 
+Pharm. Halimatu Kamara 
+11.  Pharmacist, Governance (Policy, Planning, Strategy, 
+Coordination and Advocacy) Department, DPS 
+Pharm. Zainab Mullah 
+12.  Pharmaceutical Consultant, World Health Organization Dr. Ogori Taylor 
+ 
+ 
+ 
+--- PAGE 9 ---
+1 
+ 
+ESSENTIAL MEDICINES LIST 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+1.0 Anaesthetics, Preoperative Medicines and Medical Gases  
+1.1 General Anaesthetics and Oxygen 
+1.1.1 Halothane Volatile Liquid 250ml T S    
+1.1.2 Ketamine Hydrochloride Injection 10mg/ml, 50mg/ml, 100mg/ml T S    
+1.1.3 Oxygen (Medical Grade) 
+Inhalation Gas 100% inhalation T S    
+1.1.4 Thiopentone Sodium 
+(Thiopental Sodium) 
+Powder for 
+Injection 500mg T S    
+1.1.5 Propofol Injection 2-2.5mg/kg/dose T S    
+1.2 Local Anaesthetics 
+1.2.1 Bupivacaine Injection 
+0.25%, 0.5% (hydrochloride) in vial 
+In spinal anaesthesia:  0.5% 
+(hydrochloride) in 4ml ampoule to be 
+mixed with 7.5% glucose solution. 
+T S    
+1.2.2 Lidocaine  Injection 
+1%, 2% (Hydrochloride) 
+In Spinal anaesthesia:  5% 
+(hydrochloride) in 2ml ampoule to be 
+mixed with 7.5% glucose solution 
+T S CHC CHP MCH
+P 
+1.2.3 Lidocaine & Adrenaline 
+(Epinephrine) 
+Injection 1% , 2% (Hydrochloride or Sulphate) + 
+epinephrine 1:200,000 in vial T S    
+Dental Cartridge 2% (hydrochloride) + epinephrine 
+1:80,000 T S    
+1.3 Preoperative Medication and Sedation for Short-term Procedures 
+1.3.1 Atropine Sulphate Injection 600mcg/ml, 1 mg/mL T S    
+1.3.2 Diazepam Injection 5mg/ml T S CHC   
+Tablet 5mg, 10mg T S CHC   
+1.3.3 Chloral hydrate Oral Liquid 500mg/5ml T S    
+1.3.4 Midazolam 
+Injection 1mg/mL T S    
+Oral Liquid 2mg/mL T S    
+Tablet 7.5 mg; 15 mg T S    
+1.3.5 Morphine (sulphate or 
+hydrochloride) Injection 10mg/mL      
+1.4 MUSCLE RELAXANNTS 
+1.4.1 Atracurium Injection 10mg/ml T S    
+1.4.2 Suxamethonium Injection 50mg/ml T S    
+ 
+2.0 
+Analgesics, Antipyretics ,Non-Steroidal Anti-Inflammatory Medicines, Medicines Used To Treat Gout And 
+Disease Modifying Agents Used In Rheumatoid Diseases  
+2.1 Non-Opioid Analgesics, Antipyretics, and Non-steroidal anti Inflammatory Medicines 
+2.1.1 Acetylsalicylic Acid Tablet 100mg, 300mg T S    
+2.1.2 Diclofenac Sodium 
+Tablet 25mg, 50mg, 100mg T S CHC CHP MCH
+P 
+Injection 25mg/mL T S CHC   
+Gel/Paste 1%  T S CHC CHP MCH
+P 
+2.1.3 Ibuprofen 
+Tablet 200mg, 400mg T S CHC CHP MCH
+P 
+Capsule 200mg, 400mg T S CHC CHP MCH
+P 
+Gel 10% W/W T S CHC CHP MCH
+P 
+Syrup 125mg/5ml T S CHC CHP MCH
+P 
+2.1.4 Mefenamic acid Tablet  250mg, 500mg T S CHC   
+2.1.5 Paracetamol Tablet 100mg, 250mg, 500mg T S CHC CHP MCH
+P 
+--- PAGE 10 ---
+2 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+Oral Liquid 125mg/5ml T S CHC CHP MCH
+P 
+Suppository 50mg, 100mg T S CHC CHP MCH
+P 
+Injection 1g/100ml T S CHC CHP MCH
+P 
+2.1.6 Naproxen Tablet 250mg, 500mg T S    
+2.2 Opioid Analgesics 
+2.2.1 Codeine Phosphate Tablet  
+ 30mg T S    
+2.2.2 Morphine  
+Injection 10mg/ml, 15mg/ml T S    
+Tablet 10mg (Immediate Release),  T S    
+Oral Liquid 10mg-200mg (Slow Release) T S    
+2.2.3 Pethidine Hydrochloride Tablet 50mg T S    
+Injection 50mg/ml T S    
+2.2.4 Tramadol Hydrochloride Capsule/Tablet 50mg, 100mg T S    
+Injection 50mg/ml T S    
+2.3 Medicines Used to Treat Gout 
+2.3.1 Allopurinol Tablet 100mg, 300mg T S    
+2.3.2 Colchicine Tablet 0.5mg T S    
+2.3.3 Probenecid 
+Tablet 500mg T S    
+Injection 100mg/5ml T S    
+2.4 Disease Modifying Agents Used in Rheumatoid Disorder  
+2.4.1 Azathioprine Tablet 50 mg T S    
+2.4.2 Chloroquine Tablet 100mg, 150mg T S    
+2.4.3 Methotrexate  Tablet  2.5 mg (as sodium salt) T     
+3.0 Antiallergic Medicine 
+3.1 Adrenaline (Epinephrine) Injection 1mg/ml T S CHC   
+3.2 Cetirizine Tablet 10 mg T S CHC CHP MCH
+P 
+3.3 Chlorpheniramine 
+Tablet 4mg T S CHC CHP MCH
+P 
+Oral Liquid 2mg/5ml T S CHC CHP MCH
+P 
+Injection 10mg/ml T S CHC   
+3.4 Dexamethasone (as 
+disodium phosphate salt) Injection 4mg/ml T S CHC   
+3.5 Diphenhydramine Oral Liquid 6.25mg/5ml T S CHC CHP MCH
+P 
+3.6 Hydrocortisone Sodium 
+Succinate Injection 100mg T S    
+3.7 Prednisolone Tablet 5mg T S    
+3.8 Promethazine 
+Tablet 25mg T S CHC   
+Oral Liquid 5mg/mL T S CHC CHP MCH
+P 
+4.0 Antidotes and Other Substances Used in Poisoning 
+4.1 Acetyl Cysteine Injection 200mg/ml T S    
+4.2 Atropine Sulphate Injection 1mg/ml T S    
+4.3 Calcium Gluconate Injection 100mg/ml T S CHC CHP MCH
+P 
+4.4 Charcoal, Activated 
+Oral Liquid 206mg/ml T S CHC CHP MCH
+P 
+Tablet 250mg T S CHC CHP MCH
+P 
+4.5 Deferoxamine mesylate  Injection  500 mg T S    
+4.6 Dimercaprol  Injection  50 mg/ml  T S    
+4.7 Naloxone Hydrochloride Injection 400mcg/ml T S    
+4.8 Protamine Sulphate Injection 10mg/ml T S    
+--- PAGE 11 ---
+3 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+5.0 Anticonvulsants/Antiepileptics 
+5.1 Carbamazepine Tablet 100mg, 200mg T S    
+Oral Liquid 20mg/mL T S    
+5.2 Diazepam 
+Injection 5mg/ml T S CHC CHP MCH
+P 
+Gel/Rectal 
+Solution 
+5mg/mL T S CHC CHP MCH
+P 
+5.3 Lamotrigine Tablet 50mg T     
+5.4 Levetiracetam Tablet  250mg T     
+5.5 Phenobarbitone 
+(Phenobarbital) Sodium 
+Tablet 30mg, 60mg T S CHC   
+Injection 200mg/ml T S    
+5.6 Phenytoin Sodium Tablet 100mg T S    
+Injection 50mg/ml T S    
+5.7 Sodium Valproate  Tablet 200mg, 500mg T S    
+5.8 Magnesium Sulphate Injection 500mg/mL T S CHC CHP MCH
+P 
+5.9 Midazolam Injection 10mg/ml T S    
+6.0 Anti-Infective Medicine 
+6.1 Anti-Helminthics, Anti- Filarials 
+6.1.1 Albendazole 
+Tablet 200mg, 400mg T S CHC CHP MCH
+P 
+Suspension 200mg/5ml T S CHC CHP MCH
+P 
+6.1.2 Levamisole Hydrochloride Tablet 50mg, 150mg T S CHC CHP MCH
+P 
+6.1.3 Mebendazole 
+Tablet 100mg T S CHC CHP MCH
+P 
+Suspension 100mg/5ml T S CHC CHP MCH
+P 
+6.1.4 Niclosamide Tablet 500mg T S CHC CHP MCH
+P 
+6.1.5 Praziquantel Tablet 150mg, 600mg T S CHC CHP MCH
+P 
+6.1.6 Ivermectin Tablet 3mg T S CHC CHP MCH
+P 
+6.1.7 Diethylcarbamazine Tablet 50mg T S    
+6.2 Antibacterial 
+ACCESS GROUP ANTIBIOTICS: 
+6.2.1 Amoxicillin 
+Capsule, Tablet 125mg, 250mg, 500mg T S CHC CHP MCH
+P 
+Oral Liquid 125mg/5ml T S CHC CHP MCH
+P 
+Injection 250mg, 500mg, 1Gm (as sodium) T S CHC CHP MCH
+P 
+ Ampicillin Injection 500mg, 1Gm (as sodium) T S CHC CHP MCH
+P 
+6.2.2 Amoxicillin + Clavulanic acid 
+Tablet  500 mg (as trihydrate) + 125 mg (as 
+potassium salt)  T S CHC   
+Oral Solution 125 mg (as trihydrate) + 31.25 mg (as 
+potassium salt)/5 mL  T S CHC   
+Injection 500mg (as sodium) + 100mg (as 
+potassium salt) T S CHC   
+6.2.3 Amikacin Sulphate  Injection 250mg/ml T S    
+6.2.4 Benzathine Benzyl Penicillin Injection 1.2 million IU (≈ 900mg), 2.4 million IU 
+(≈ 1.8g) T S CHC   
+6.2.5 Benzylpenicillin 
+(sodium/potassium) 
+Powder for 
+Injection 
+600mg (≈ 1 Million IU), 3Gm (≈5 million 
+IU) T S CHC   
+6.2.6 Cephalexin Tablet 250mg, 500mg T S    
+Oral Liquid 125mg/5ml T S    
+6.2.7 Chloramphenicol Sodium  Injection 500mg/mL, 1 Gm  T S    
+Capsule 250mg T S    
+6.2.8                       Clindamycin  Capsule  150 mg (as hydrochloride). T S    
+Injection 150 mg (as phosphate)/ml. T S    
+--- PAGE 12 ---
+4 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+6.2.9 Cloxacillin 
+Tablet 250mg, 500mg T S CHC CHP MCH
+P 
+Suspension 125mg/5ml T S CHC CHP MCH
+P 
+Powder for 
+Injection 500mg T S    
+ 
+6.3.0 Doxycycline Capsule 100mg T S CHC CHP MCH
+P 
+6.3.1 Gentamicin Injection 20mg/ml, 40mg/ml, 80mg/2ml T S CHC CHP MCH
+P 
+ 
+6.3.2 Metronidazole 
+Tablet 250mg, 500mg T S CHC CHP MCH
+P 
+Oral Liquid 125mg/5ml, 200mg/ml T S CHC CHP MCH
+P 
+Injection 5mg/ml T S CHC   
+6.3.3 Nitrofurantoin Tablet 100mg T S CHC   
+6.3.4 Phenoxymethylpenicillin 
+Tablet 250mg, 500mg (as potassium) T S CHC   
+Oral Liquid 250mg/5mL (as potassium) T S CHC   
+6.3.5 Procaine Benzylpenicillin Powder for 
+Injection 
+1 Gm (≈1 Million IU); 3 Gm (≈3 Million 
+IU) T S    
+6.3.6 Spectinomycin Injection 2 Gm (as hydrochloride) T S    
+6.3.7 Flucloxacillin 
+Capsule 250mg, 500mg T S CHC   
+Injection 1g/vial T S CHC   
+Suspension  125mg/5ml T S CHC   
+WATCH GROUP ANTIBIOTICS 
+6.3.8 Azithromycin Tablet 250mg, 500mg T S    
+Oral Liquid 200mg/5ml T S    
+6.3.9 Cefixime Tablet 200mg, 400mg T S    
+Oral Liquid 100 mg/5mL T S    
+6.4.0 Cefotaxime  Injection 250mg/vial (as sodium) T S    
+6.4.1 Ceftriaxone Injection 250mg, 1 Gm  (as Sodium) T S    
+6.4.2 Cefuroxime  Tablet 250mg, 750mg, 1.5 Gm (as sodium) T S    
+6.4.3 Ciprofloxacin Tablet 250mg, 500mg T S CHC   
+Injection 200mg/100ml infusion T S CHC   
+6.4.4 Clarithromycin  
+Tablet 500 mg T S    
+Oral Liquid 125 mg/5 mL, 250mg/5 mL T S    
+Injection 500 mg T S    
+6.4.5 Erythromycin 
+Tablet 250mg, 500mg T S CHC CHP MCH
+P 
+Suspension 125mg/5ml T S CHC   
+Dispersible 
+Tablet 250mg T S CHC CHP MCH
+P 
+6.4.6 Levofloxacin 
+Tablet 250mg, 500mg, 750mg T S CHC   
+Injection 250mg/50ml,500mg/100ml,750mg/150m
+l 
+T S CHC   
+6.5 Medicines Used to Treat Tuberculosis and Leprosy  
+6.5.1 Medicines Used to Treat Tuberculosis 
+6.5.2 Amikacin Sulphate  Injection 50 mg/mL, 250mg/ml T S    
+6.5.3 Bedaquiline Tablet  100mg T S    
+6.5.4 Capreomycin Sulphate Powder for 
+Injection 1g T S    
+6.5.5 Clofazimine Tablet  100mg T S    
+6.5.6 Cycloserine  Capsule 250mg T S    
+6.5.7 Delamanid Tablet  50mg T S    
+--- PAGE 13 ---
+5 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+6.5.8 Ethambutol Tablet 100mg,400mg T S CHC CHP  
+6.5.9 Ethionamide  Tablet 250mg T S    
+6.6.0 Isoniazid Tablet 100mg, 300mg T S CHC CHP  
+6..6.1 Rifapentine Tablet 150mg T S CHC CHP  
+6..6.2 Levofloxacin  Tablet 250mg T S    
+6.6.3 Linezolid Tablet  600mg T S    
+6.6.4 
+Moxifloxacin 
+Tablet 400mg T S    
+Injectables 400mg/250ml T S    
+6.6.5 Ofloxacin Tablet 200mg T S    
+6.6.6 P-aminosalycylate sodium 
+salt Powder/sachet 4,000 mg T S    
+6.6.7 Protionamide Tablet 250mg T S    
+6.6.8 
+Pyrazinamide 
+Tablet 400mg T S CHC CHP  
+Dispersible 
+tablet 150mg T S CHC CHP  
+6.6.9 Pyridoxine (Vitamin B6) Tablet  50mg T S CHC CHP  
+6.7.0 
+Rifampicin & Isoniazid Tablet 
+75mg & 50mg  T S CHC CHP  
+150mg & 75mg T S CHC CHP  
+6.7.1 Rifampicin & Isoniazid & 
+Pyrazinamide Tablet 75mg & 50mg & 150mg  T S CHC CHP  
+6.7.2 Rifampicin & Isoniazid & 
+Ethambutol Tablet 150mg & 75mg & 275mg T S CHC CHP  
+6.7.3 Rifampicin & Isoniazid & 
+Pyrazinamide & Ethambutol Tablet 150mg & 75mg & 400mg & 275mg T S CHC CHP  
+6.8 Medicines Used to Treat Leprosy 
+6.8.1 Rifampicin & Clofazimine & 
+Dapsone Tablet 600mg &100mg & 50mg T S CHC CHP MCH
+P 
+6.8.2 
+Rifampicin & Dapsone  Tablet  
+450mg & 50mg (child) T S CHC CHP MCH
+P 
+600mg & 100mg (adult) T S CHC CHP MCH
+P 
+7.0 Antifungals 
+7.0.1 Clotrimazole 
+Cream 1% T S CHC CHP MCH
+P 
+Pessary 500mg T S CHC CHP MCH
+P 
+7.0.2 Fluconazole Capsule 50mg, 200mg T S CHC CHP MCH
+P 
+Injection 2mg/ml (25ml) T S    
+7.0.3 Griseofulvin Suspension 125mg/5ml T S CHC CHP  
+Tablet 125mg, 500mg T S CHC CHP  
+7.0.4 Miconazole Cream 2% T S CHC CHP MCH
+P 
+7.0.5 Ketoconazole Tablets 200mg  T S CHC   
+7.0.6 Nystatin 
+Cream 100,000IU T S CHC CHP MCH
+P 
+Suspension 100,000IU T S CHC CHP MCH
+P 
+Pessary 100,000IU, 500,000IU T S CHC CHP MCH
+P 
+7.1 Antimalarials 
+7.1.1 Artemether Injection 80mg/ml, 20mg/ml, 40mg/ml T S CHC  CHP MCH
+P 
+--- PAGE 14 ---
+6 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+7.1.2 Artemether & Lumefantrine 
+(ACT) Tablet 20mg & 120mg T S CHC CHP MCH
+P 
+7.1.3 Artesunate 
+Injection 20mg/ml, 60mg/ml T S CHC CHP MCH
+P 
+Suppository 50mg,100mg,  200mg T S CHC CHP MCH
+P 
+7.1.4 Quinine Sulphate Tablet 300mg T S    
+7.1.5 Quinine Dihydrochloride Injection 300mg/ml T S    
+7.1.6 Sulphadoxine/Pyrimethamin
+e 
+Tablet 500mg/25mg T S CHC CHP MCH
+P 
+Suspension 250mg & 12.5mg / 5ml T S CHC CHP MCH
+P 
+7.2 Antiprotozoal: Anti-Amoebic, Anti-Giardiasis and Schistosomicides 
+7.2.1 Diloxanide furoate Tablet  500 mg  
+ T S    
+7.2.2 Metronidazole 
+Tablet 200mg T S CHC CHP MCH
+P 
+Oral Liquid 200mg/5ml T S CHC CHP MCH
+P 
+Injection 500mg/100ml T S CHC   
+7.2.3 Tinidazole Tablet 500mg T S CHC   
+7.2.4 Praziquantel Tablet 600mg T S CHC CHP MCH
+P 
+8.0 Antiviral Medicines 
+8.1 Anti-herpes 
+8.1.1 Acyclovir 
+Cream 5% T S CHC   
+Tablet 200mg T S CHC   
+Powder for 
+Infusion 250mg T S    
+8.2 Medicine used in Lassa fever 
+8.2.1 Ribavirin Tablet 200mg T S    
+9.0 Antiretroviral medicines  
+9.1 Combination Medicine 
+9.1.1 Abacavir & Lamivudine Tablet 120mg & 60mg, 600mg & 300mg T S CHC CHP MCH
+P 
+9.1.2 Atazanavir & Ritonavir Tablet 300mg & 100mg T S CHC     
+9.1.3 Lopinavir & Ritonavir 
+Tablet 200mg & 50mg T S CHC     
+Tablet 100mg & 25mg T S CHC CHP MCH
+P 
+Syrup 80mg & 20mg/ml T S CHC CHP MCH
+P 
+Granules 40mg & 10mg T S CHC CHP MCH
+P 
+9.1.4 Tenofovir & Lamivudine Tablet 300mg & 300mg T S CHC     
+9.1.5 Tenofovir & Emtricitabine Tablet 300mg & 200mg T S CHC CHP MCH
+P 
+9.1.6 Tenofovir & Lamivudine & 
+Efavirenz Tablet 300mg & 300mg & 400mg T S CHC CHP MCH
+P 
+9.1.7 Tenofovir & Lamivudine & 
+Dolutegravir Tablet 300mg & 300mg & 50mg T S CHC CHP MCH
+P 
+9.1.8 Zidovudine & Lamivudine Tablet 60mg & 30mg, 300mg & 150mg T S CHC CHP MCH
+P 
+9.1.9 Zidovudine & Lamivudine & 
+Nevirapine Tablet 60mg & 30mg & 50mg T S CHC CHP MCH
+P 
+9.2 Single Entity Medicines 
+9.2.1 Efavirenz Tablet 200mg, 600mg T S CHC CHP MCH
+P 
+9.2.2 Nevirapine Syrup 50mg/5ml T S CHC CHP MCH
+P 
+--- PAGE 15 ---
+7 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+9.2.3 Raltegravir  Tablet 100mg T S    
+9.2.4 Dolutegravir Tablet 50mg; 10mg T S CHC CHP MCH
+P 
+9.3 Antihepatitis medicines: (Antihepatitis B,C) 
+9.3.1 Entecavir  Tablet  0.5 mg; 1 mg  T S    
+9.3.2 Sofosbuvir  + daclatasvir Tablet  400mg + 60mg T S    
+9.3.3 Tenofovir disoproxil fumarate Tablet  300mg T S    
+9.3.4 Ribavirin Tablet 200mg, 400mg, 600mg T S    
+9.4 Antineoplastic / Immunosuppressive Medicines 
+9.4.1 Actinomycin-D Injection 500mcg/Vial T     
+9.4.2 Bleomycin Injection 15 mg (as sulphate) T     
+9.4.3 Busulphan Tablet 2mg T S    
+9.4.4 Cytarabine Injection 100mg/ml T     
+9.4.5 Cyclophosphamide Tablet 25mg, 50mg T S    
+Injection 500 mg/vial, 1Gm, 2Gm T     
+9.4.5 Dactinomycin Injection 500 mcg T     
+9.4.6 Doxorubicin Powder for 
+Injection 10mg, 50mg (hydrochloride) vial T     
+9.4.7 5-Flurouracil Injection 25mg/ml & 50mg/ml T     
+9.4.8 Leucovorin Calcium 
+(Calcium Folinate) 
+Tablet 5 mg, 15mg, 25 mg T S    
+Injection 3 mg/mL T     
+9.4.9 Methotrexate Tablet 2.5 mg (as sodium salt) T S    
+Injection 50 mg (as sodium salt) T S    
+9.5.1 Procarbazine Hydrochloride Capsule 50mg T     
+9.5.2 Etoposide Injection 20mg/ml T S    
+Capsule 50 mg, 100 mg T S    
+9.5.3 Vincristine  Sulphate Injection 1mg/mL T     
+9.6 Anti-parkinsonism Medicine 
+9.6.1 Trihexyphenidyl  Tablet 2mg, 5mg  T     
+9.6.2 Levodopa/Carbidopa Tablet 100/10mg T     
+10 Medicines affecting Blood and Nutrition 
+10.1 Hematinic, Minerals and Vitamins 
+10.1.1 Ferrous salt 
+Tablet/Capsule equivalent to 60 mg iron T S CHC CHP MCH
+P 
+Oral Liquid equivalent to 25 mg iron (as 
+sulphate)/mL 
+T S CHC CHP MCH
+P 
+Syrup 45mg/5ml T S CHC CHP MCH
+P 
+10.1.2 Ferrous Salt + Folic Acid Tablet equivalent to 60 mg iron + 400 
+micrograms folic acid 
+T S CHC CHP MCH
+P 
+10.1.3 Folic Acid Tablet 5mg T S CHC CHP MCH
+P 
+10.1.4 Multiple micronutrient 
+supplements* Tablets - T S CHC CHP MCH
+P 
+10.1.5 Hydroxocobalamin Injection 1mg/ml T S CHC CHP MCH
+P 
+10.1.6 Multivitamins 
+Tablet/Capsule - T S CHC CHP MCH
+P 
+Syrup - T S CHC CHP MCH
+P 
+10.1.7 Pyridoxine Tablet 25mg T S    
+10.1.8 
+Therapeutic Vitamins and 
+Mineral Complex 
+Powder for 
+Reconstitution *See Note T S    
+Note: Each 6.35g (=1 measure scoop) contains vitamin A (300mg), vitamin D (960mg), vitamin E (44mg), vitamin C (200mg), vitamin B1 
+(1.4mg) vitamin B2 (4mg), vitamin B6 (1.4), vitamin B12 (2mcg), vitamin K (80mcg), biotin (0.2mg), folic acid (700mcg), potassium (2340mg), 
+magnesium (146mg), zinc (40mg), copper(5.6mg), iron(0mg), iodine (154mcg), selenium (94mcg) 
+10.1.9 Vitamin A Capsule 100,000 IU, 200,000 IU T S CHC CHP MCH
+P 
+10.2.0 Vitamin B1 Tablet 50mg T S CHC CHP MCH
+P 
+10.2.1 Vitamin C (Ascorbic Acid) Tablet 100 mg T S CHC CHP MCH
+P 
+10.3 Medicines Used to Treat Severe Acute Malnutrition 
+--- PAGE 16 ---
+8 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+10.3.1 Ready to Use Therapeutic 
+Food (RUTF) Powder 500 Kcal/92g T S CHC CHP MCH
+P 
+10.3.2 ReSoMal Powder  T S    
+10.3.3 Therapeutic Milk (Formula 
+75, F75) 
+Powder for 
+Reconstitution 102.5g/410g T S    
+10.3.4 Therapeutic Milk (Formula 
+100, F100) 
+Powder for 
+Reconstitution 114g/456g T S    
+10.4 Replacement Fluids/Electrolytes-Plasma Expanders 
+10.4.1 Dextran Infusion 50 & 70 T S    
+10.4.2 Dextran 70 & Sodium 
+Chloride Infusion 6% & 0.9% T S    
+10.4.3 Dextrose (Glucose) Infusion 5%, 10%, 50% T S CHC   
+10.4.4 Dextrose (Glucose) & 
+Sodium Chloride Infusion 4% & 0.18%, 5% & 0.9% T S CHC   
+10.4.5 Gelofusine (Haemacel) Infusion B.P. Formulation T S    
+10.4.6 
+ 
+ 
+ 
+Oral Rehydration Salts 
+(ORS): 
+ 
+Sodium Chloride 2.6g/L 
+Trisodium Citrate 2.9g/L 
+Potassium Chloride 1.5g/L 
+Glucose 13.5g/L 
+Powder 
+Sodium                                  75mEq/L 
+Chloride                                65mEq/L 
+Potassium                            20mEq/L 
+Citrate                                  10mEq/L 
+Glucose                                75mEq/L 
+T S CHC CHP MCH
+P 
+10.4.7 Potassium Chloride Injection 1.5 mmol of ion per mL T S    
+10.4.8 Sodium Bicarbonate Injection 1.4%, 8.4% T S    
+10.4.9 Dextrose 5% (One-fifth 
+strength saline) Liquid 500mls T S    
+10.5.0 Sodium Chloride (Normal 
+Saline) Infusion 0.9% T S CHC CHP MCH
+P 
+10.5.1 Compound Sodium 
+(Ringer’s) Lactate Infusion 0.25% T S CHC CHP MCH
+P 
+10.5.2 Water for Injection Injection 5ml, 10ml, 20ml T S CHC CHP MCH
+P 
+10.5.3 Zinc Sulphate Dispersible 
+Tablet 20mg T S CHC CHP MCH
+P 
+11 Medicine Affecting Coagulation 
+11.1.1 Deferoxamine Powder for 
+Injection 500mg T     
+11.1.2 Desmopressin  Injection  4 mcg/mL (as acetate) in 1 mL  T     
+11.1.3 Enoxaparin Injection 20mg/0.2ml, 40mg/0.4ml, 60mg/0.6ml,  T     
+11.1.4 Heparin Sodium Injection 1,000 IU/mL, 5,000IU/mL, 20,000 IU/mL T     
+11.1.5 Tranexamic acid Injection 100mg/ml T S CHC CHP MCH
+P 
+11.1.6 Vitamin K (Phytomenadine) Injection 10mg/ml, 1mg/ml T S CHC CHP MCH
+P 
+11.1.7 Warfarin Sodium Tablet 1mg, 2mg, 5mg T     
+12 Cardiovascular 
+12.1 Antianginals 
+12.1.1 Glyceryl trinitrate 
+(Nitroglycerin) 
+Tablet 
+(sublingual) 500mcg  T S    
+12.1.2 Isosorbide dinitrate Tablet 
+(sublingual) 5mg T S    
+12.1.3 Verapamil Hydrochloride Tablet 40mg, 80mg T     
+--- PAGE 17 ---
+9 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+12.2 Antiarrhythmics/Antidysrhythmic 
+12.2.1 Atenolol Tablet 50mg, 100mg T S    
+12.2.2 Adenosine Injection 25mg, 50mg T     
+12.2.3 Lidocaine Injection 20 mg/mL T S    
+12.2.4 Propranolol Tablet 40mg, 80mg T S CHC   
+12.2.5 Verapamil Hydrochloride 
+Tablet 40mg; 80mg T     
+Injection 2.5mg/ml T     
+12.3 Antihypertensives 
+12.3.1 Amlodipine   Tablet  5 mg, 10mg (as maleate, mesylate or 
+besylate) T S CHC   
+12.3.2 Atenolol Tablet 50mg, 100mg T S    
+12.3.3 Labetalol Injectables 50mg, 100mg T S    
+12.3.4 Bendroflumethiazide Tablet 2.5mg, 5mg T S    
+12.2.5 Enalapril Tablet 5mg, 10mg T S    
+12.3.6 Furosemide 
+Tablet 40mg T S CHC   
+Injection 10mg/ml T S    
+12.3.7 Hydralazine 
+Tablet 25mg, 50mg T S    
+Powder for 
+Injection 20mg/ml T S    
+12.3.8 Hydrochlorothiazide Tablet 50mg,12.5mg, 25mg T S CHC   
+12.3.9 Losartan  Tablet  25 mg; 50 mg , 100mg T S    
+12.4.0 Methyldopa Tablet 250mg T S CHC   
+12.4.1 Nifedipine  Capsule/ Tablet 10mg, 60mg T S CHC CHP MCH
+P 
+12.4.2 Propranolol Tablet 40mg, 80mg T S CHC   
+12.4.3 Lisinopril Tablet 5mg,10mg T S    
+12.4.4 Bisoprolol Tablet 2.5mg, 5 mg T S    
+12.4.5 
+ 
+ 
+ 
+Metoprolol Tablet 50mg, 100mg T     
+12.5 Medicine Used in Heart Failure (Cardiac Glycosides) 
+12.5.1 Potassium chloride Tablet 600mg, 1200mg T     
+12.5.2 Carvedilol  Tablet 3.125mg, 6.25mg T S    
+12.5.3 Spironolactone Tablet 25mg T S    
+12.5.4 Digoxin Tablet 62.5, 250 microgram T     
+--- PAGE 18 ---
+10 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+Injection 250 microgram/mL T     
+12.6 Lipid lowering medicines  
+12.6.1 Atorvastatin Tablet  10mg, 40mg T S    
+12.7 Anti-platelet medicines   
+12.7.1 Acetylsalicylic acid Tablet  75mg, 81mg T S CHC   
+12.7.2 Clopidogrel Tablet  75mg T S    
+12.8 Medicine Used in Vascular Shock (Sympathomimetics) 
+12.8.1 Adrenaline (Epinephrine) Injection 1mg/ml T S CHC   
+12.8.2 Dopamine Hydrochloride Injection 40mg/ml T     
+13 Dermatological Medicine 
+13.1 Antifungals 
+13.1.1 Benzoic Acid + Salicylic Acid Ointment 6% + 3% T S CHC CHP MCH
+P 
+13.1.2 Clotrimazole Ointment , 
+Powder 1% T S CHC CHP MCH
+P 
+13.1.3 Ketoconazole Cream 2% T S CHC CHP MCH
+P 
+13.1.4 Miconazole Nitrate Cream, Powder 2% T S CHC CHP MCH
+P 
+13.1.5 Ketoconazole Tablet 200mg T S CHC   
+13.1.6 Nystatin 
+Ointment/Crea
+m 100,000IU T S CHC CHP MCH
+P 
+Tablet 500,000IU T S CHC   
+13.2 Anti-inflammatory and Antipruritic medicines 
+13.2.1 Calamine Lotion Suspension BP formulation T S CHC CHP MCH
+P 
+13.2.2 Chlorphenamine Tablets 2mg T S CHC CHP MCH
+P 
+13.2.3 Cetirizine Tablets 10mg T S CHC CHP MCH
+P 
+13.2.4 Loratadine Tablets 10mg T S CHC CHP MCH
+P 
+13.3.5 Betamethasone Ointment/Crea
+m 0.1%  (as valerate) T S    
+13.3.6 Hydrocortisone Ointment/Crea
+m 1% (as acetate) T S    
+13.4 Antibacterial/Anti-infectives 
+13.4.1 Chlorhexidine Gluconate Gel 7.1% T S CHC CHP MCH
+P 
+13.4.2 Fusidic Acid Ointment 5% T S CHC CHP MCH
+P 
+13.4.3 
+Methylrosanilinium Chloride 
+(Crystal Violet/Gentian 
+Violet) 
+Solution 0.50% T S CHC CHP MCH
+P 
+13.4.4 Neomycin & Bacitracin Ointment/Crea
+m 5mg & 500g T S CHC CHP MCH
+P 
+13.4.5 Povidone Iodine Solution  10% T S CHC CHP MCH
+P 
+--- PAGE 19 ---
+11 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+13.4.6 Silver Sulphadiazine Cream 1% T S    
+13.4.7 Tetracycline 
+Ointment 3% T S CHC CHP MCH
+P 
+Tablet 100mg T S CHC   
+Capsule 100mg T S CHC   
+13.5 Emollient 
+13.5.1 Lubricating Jelly Gel - T S CHC   
+13.5.2 Paraffin, Soft White B.P Oil - T S CHC CHP MCH
+P 
+13.5.3 Zinc Oxide Ointment 15% T S CHC CHP MCH
+P 
+13.6 Keratoplastic and Dermatolytic 
+13.6.1 Benzoyl Peroxide Lotion/Cream 5% T S CHC   
+13.6.2 Selenium sulphide Shampoo 1%, 2.5% T S    
+13.6.3 Coal Tar Paste 5% T S    
+13.6.4 Podophylin Toxin Paint 25% T S    
+13.6.5 Salicylic Acid Lotion 2%, 5% T S CHC CHP MCH
+P 
+13.6.6 Silver Nitrate Caustic Pencil 95% T S    
+13.6.7 Sulphur Ointment 10% T S CHC CHP MCH
+P 
+13.7 Scabicides 
+13.7.1 Benzyl Benzoate Lotion 25% T S CHC CHP MCH
+P 
+13.7.2 Gamma Benzene 
+Hexachloride Lotion 0.10% T S CHC CHP MCH
+P 
+13.7.3 Permethrin 
+Cream 5% T S CHC   
+Lotion 1% T S CHC   
+14 Diagnostic Agents and Biological Preservatives 
+14.1 Diagnostic Agents 
+14.1.1 Amidotrizoate Sodium or 
+Meglumine 
+Injection 14mg-20mg iodine/ml (20ml) T     
+14.1.2 Barium Sulphate  Powder for 
+Suspension 1.2 to 200% w/v T     
+14.1.3 Fluorescein Eye Drops 1% T     
+14.1.4 Iohexol Injection 300mg Iodine per mL T     
+14.2 Biological Preservatives 
+14.2.1 Ethanol/Alcohol Solution 98% T S    
+14.2.2 Formaldehyde Solution 1.5 to 10% T S    
+14.2.3 Glycerin Solution 50% T S    
+14.2.4 Phenol Solution 0.35g% T S    
+15 Disinfectant and Antiseptics 
+--- PAGE 20 ---
+12 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+15.1 Antiseptics 
+15.1.1 Ethanol/Alcohol Solution 98% T S CHC CHP MCH
+P 
+15.1.2 Cetrimide & Chlorhexidine Concentrate 15% & 1.5% T S CHC CHP MCH
+P 
+15.1.3 Chloride base compound Powder/Tablet 1.67g T S CHC CHP MCH
+P 
+15.1.4 Chlorhexidine Gluconate Solution, Gel 0.015%, 0.15%, 5% T S CHC CHP MCH
+P 
+15.1.5 Hydrogen Peroxide Solution 6% T S CHC CHP MCH
+P 
+15.1.6 Iodine Solution Solution Different Strengths T S CHC CHP MCH
+P 
+15.1.7 Lysol (Cresol & Soap 
+Solution) Solution 10% T S CHC CHP MCH
+P 
+15.1.8 Povidone Iodine Solution 1-10% T S CHC CHP MCH
+P 
+15.1.9 Sodium Hypochlorite Solution Available Chlorine T S CHC CHP MCH
+P 
+15.1.1
+0 Surgical Spirit Solution 98% T S CHC CHP MCH
+P 
+15.2 Disinfectants 
+15.2.1 Glutaraldehyde Aqueous 
+Solution 2%      
+15.2.2 Alcohol-Based Hand Rub  Ethanol 80%, isopropyl alcohol 75% T S CHC CHP MCH
+P 
+ 
+15.2.3 Phenol Solution 0.5% - 1.5% T S CHC CHP MCH
+P 
+ 
+15.2.4 Sodium Hypochlorite 
+Solution 5% - 10% avail Chlorine T S CHC CHP MCH
+P 
+Powder 70% T S CHC CHP MCH
+P 
+16 Diuretics 
+16.1.1 Amiloride Hydrochloride Tablet 5mg T S    
+16.1.2 Bendroflumethiazide Tablet 2.5mg, 5mg T S CHC CHP  
+16.1.3 Furosemide 
+Tablet 40mg T S CHC CHP  
+Injection 10mg/ml T S    
+16.1.4 Mannitol Infusion 10%, 20% T S    
+16.1.5 Spironolactone Tablet 25mg, 100mg T S CHC CHP  
+17 Gastro-Intestinal Medicines 
+17.1 Bisacodyl 
+Tablet 5mg T S CHC   
+Suppository 5mg, 10mg T S CHC   
+17.2 Docusate Sodium 
+Capsule 100mg T S CHC CHP MCH
+P 
+Oral Solution 50mg/5ml T S CHC CHP MCH
+P 
+17.3 Hyoscine Butylbromide 
+Tablet 10mg T S CHC CHP MCH
+P 
+Injection 10mg/ml T S CHC CHP MCH
+P 
+17.4 Lactulose Oral Solution 3.35g/5ml T S    
+17.5 Liquid Paraffin Liquid 4mg/sachet T S CHC CHP MCH
+P 
+17.6 Misoprostol Tablet 200mcg T S CHC   
+--- PAGE 21 ---
+13 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+17.7 Oral Rehydration Salts 
+(ORS) Powder Refer to section 10.2.6 T S CHC CHP MCH
+P 
+17.8 Omeprazole 
+Tablet/Capsule 20mg T S    
+Injection 40mg T S    
+17.9 Ranitidine  Tablet 150mg, 300mg T S CHC CHP MCH
+P 
+18 Antiemetic Drugs 
+18.1 Metoclopramide 
+Hydrochloride 
+Tablet 10mg T S CHC CHP MCH
+P 
+Injection 5mg/ml T S    
+18.2 Ondansetron 
+Injection 2mg/ml T S    
+Tablet 4mg, 8mg T S    
+19 Medicine Acting on the Endocrine System 
+18.1 Hormones and Antihormonal Medicines 
+19.1.1 Anastrozole (specialist) Tablet  1mg T     
+19.1.2 Bromocriptine Tablet 2.5mg T     
+19.1.3 Carbimazole Tablet 5mg T S    
+19.1.4 Clomiphene citrate Tablet 50mg T S    
+19.1.5 Insulin Lente Injection 100unit 10ml T S    
+19.1.6 Lugol’s Iodine Oral Solution Solution 5%, 10% T S    
+19.1.7 Methimazole Tablet 5mg, 20mg T S    
+19.1.8 Norethisterone Tablet 5mg T S    
+19.1.9 Potassium Iodine in  Purified 
+water Solution 100% T S    
+18.1.1
+0 Tamoxifen Tablet 10mg, 20mg T S    
+18.1.1
+1 Thyroxine Sodium Tablet 100mcg T S    
+18.2.1
+2 Erythropoietin Injection 200mcg/ml T     
+18.2 Medicines for diabetes  
+18.2.1 Glibenclamide Tablet 5mg T S CHC CHP MCH
+P 
+18.2.2 
+Gliclazide 
+Tablet 
+(controlled 
+release) 
+30 mg  T S    
+18.2.3 Glimeperide Tablet 2mg, 4 mg T S    
+18.2.4 Insulin (Short, Intermediate 
+and Long) analogue Injection 40 IU/mL, 100 IU/mL T S    
+18.1.5 Metformin Tablet 500mg, 850mg T S CHC   
+18.2 Hypoglycaemic Drug 
+18.2.1 Glucagon Injection 1mg/mL T S    
+18.3 Corticosteroids 
+18.3.1 Dexamethasone Tablet 0.5mg, 4mg T S CHC CHP MCH
+P 
+Injection 4mg/ml T S CHC   
+18.3.2 Hydrocortisone Tablet 100mg T S    
+--- PAGE 22 ---
+14 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+Powder for 
+Injection 100mg T S    
+18.3.3 Methyl Prednisolone Acetate Injection 40mg/ml, T S    
+18.3.4 Prednisolone (Sodium 
+Phosphate) 
+Tablet 5mg, 20mg,40mg T S    
+Suspension for 
+Injection 25mg/ml T S    
+18.4 Sex Hormones 
+18.4.1 Allyloestrenol Tablet 5mg T     
+18.4.2 Ethinyloestradiol Tablet 0.03mg T     
+18.4.3 Testosterone Oily Injection 25mg/ml T     
+18.5 Contraceptive Products 
+18.5.1 Copper-Containing Device 
+Copper T (IUD) 
+Device - T S CHC   
+18.5.2 Depot Medroxyprogesterone 
+Acetate Injection 150mg/ml T S CHC CHP MCH
+P 
+18.5.3 Ethinylestradiol & 
+Levonorgestrel  Tablet 30mcg & 150mcg T S CHC CHP MCH
+P 
+18.5.4 Ethinylestradiol & 
+Norethisterone 
+Tablet 30mcg & 50mcg T S CHC CHP MCH
+P 
+18.5.5 Ethinylestradiol & Norgestrel Tablet 0.03mg & 0.3mg T S CHC CHP MCH
+P 
+18.5.6 Norethisterone enantate  injection 200mg/ml T S CHC CHP MCH
+P 
+18.5.7 Female Condom - - T S CHC CHP MCH
+P 
+18.5.8 Levonogestrel Implant One or Two 
+Rod 150 mg T S CHC CHP MCH
+P 
+18.5.9 Levonorgestrel (Emergency 
+Contraceptive) Tablet 0.75mg, 1.5mg T S CHC CHP MCH
+P 
+18.6.0 Male Condom - - T S CHC CHP MCH
+P 
+18.6.1 Medroxyprogesterone 
+Acetate   Injection, SC 104mg/0.65ml T S CHC CHP MCH
+P 
+18.6.2  Levonorgestrel  Tablet 30mcg T S CHC CHP MCH
+P 
+18.6.3 Levonogestrel (Hormonal 
+IUD) MD 52mg T S CHC   
+19 Immunological Products, Vaccines and Sera 
+19.1 Antivenom Sera Polyvalent Injection 10ml, 20ml T S    
+19.1.1 Bacillus Calmette-Guerin 
+(BCG) Vaccine Injection 20 doses/vial T S CHC CHP MCH
+P 
+19.1.2 Haemophilus Influenza B 
+(Hib) Vaccine Injection  7.5mcg, 10mcg T S CHC CHP MCH
+P 
+19.1.3 Hepatitis B Vaccine Injection 0.002mg/ml T S CHC CHP MCH
+P 
+19.1.4 Human Papilloma Virus 
+(HPV) Vaccine  Injection  1 dose/vial T S CHC CHP MCH
+P 
+19.1.5 Hepatitis B immunoglobulin Injection 220IU/ml, 312IU/ml T S CHC CHP MCH
+P 
+19.1.6 Interferon alpha Injection  6-10 million IU/ml T     
+19.1.7 Inactivated Polio Virus (IPV) 
+Vaccine 
+Injection  10 doses/vial T S CHC CHP MCH
+P 
+19.1.8 Novel Oral Polio Vaccine 
+(nOPV) 
+oral 50 doses/vial T S CHC CHP MCH
+P 
+19.1.9 Measles Rubella (MR) 
+Vaccine Injection 10 doses/vial T S CHC CHP MCH
+P 
+--- PAGE 23 ---
+15 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+19.2.0 Meningococcal Vaccine 
+Multiple Doses Injection 0.5mg, 2.5mg T S    
+19.2.1 Oral bivalent Polio Virus 
+(bOPV) Vaccine Oral  10 doses/vial T S CHC CHP MCH
+P 
+19.2.2 Pentavalent Vaccine Injection 10 doses/vial T S CHC CHP MCH
+P 
+19.2.3 Pneumococcal Conjugate 
+Vaccine (PCV) Injection 4 doses/vial T S CHC CHP MCH
+P 
+19.2.4 Rabies Immunoglobulin 
+(Sera) Injection  300IU/ml, 1500IU/ml T S    
+19.2.5 Rabies Vaccine (Human 
+Diploid) Injection 0.5ml T S CHC CHP MCH
+P 
+19.2.6 Rotavirus (RV) Vaccine Oral 1 dose/vial T S CHC CHP MCH
+P 
+19.2.7 Snake Venom Antiserum, 
+Africa  injection   T S    
+19.2.8 Tetanus Antitoxin Injection 50,000 units T S CHC CHP MCH
+P 
+19.2.9 Tetanus dipthera Vaccine Injection 10 dose/vial T S CHC CHP MCH
+P 
+19.3.0 Tetanus immunoglobulin IV 10000 and 15000IU T S    
+19.3.1 Yellow Fever Vaccine Injection 10 dose/vial T S CHC CHP MCH
+P 
+20.1 Ophthalmological Preparations 
+20.1.1 Acetazolamide Tablet 250 & 500mg T S CHC CHP MCH
+P 
+20.1.2 Aciclovir Ointment 3% T S    
+20.1.3 Amethiocane (Tetracaine) Drops 1% T S    
+20.1.4 Atropine Drops 0.1%, 0.5%, 1% T S CHC CHP MCH
+P 
+20.1.5 Betamethasone 
+Ointment 0.10% T     
+Drops 150mg/ml T     
+20.1.6 Cyclopentolate Drops 1%, 1.25% T S CHC CHP MCH
+P 
+20.1.7 Chlorhexidine  Drops  0.2% T S    
+20.1.8 Dexamethasone  Drops  0.1% T S    
+20.1.9 Ethanol Absolute Injection 99.5% T S    
+20.2.1 Gentamicin Drops 0.3% T S CHC CHP MCH
+P 
+20.2.2 Homatropine Drops 1%, 2% T     
+20.2.3 Hydrocortisone & Neomycin Ointment 1.5% + 0.5 % T S CHC CHP MCH
+P 
+20.2.4 Latanoprost  Drops  50 micrograms/ml T     
+20.2.5 Natamycin   Drops 5% T     
+20.2.6 Pilocarpine Drops 1%, 2%, 4% T S    
+20.2.7 Prednisolone Drops 0.5% T     
+20.2.8 Ranibizumab  Ophthalmic 
+drops 6mg/ml T     
+20.2.9 Timolol Maleate Drops 0.25%, 0.5% T S CHC CHP MCH
+P 
+20.3.0 Tetracycline Ointment 1% T S CHC CHP MCH
+P 
+--- PAGE 24 ---
+16 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+20.3.1 Triamcinolone  Drops  4mg/0.1ml T     
+20.3.2 Tropicamide Drops 1%      
+21 Uterotonics  
+21.1 Heat stable Carbetocin Injection 100mcg/ml T S CHC CHP MCH
+P 
+21.2 Ergometrine Maleate 
+Tablet 0.5mg T S CHC CHP MCH
+P 
+Injection 0.5mg/ml T S CHC CHP MCH
+P 
+21.3 Misoprostol Tablet 200mcg T S CHC CHP MCH
+P 
+21.4 Mifepristone Tablets 200mg T S CHC   
+21.5 Oxytocin Injection 10IU T S CHC CHP MCH
+P 
+21.6 Oxytocin/Ergometrine Injection 5 units/500mcg per ml T S CHC   
+22 Peritoneal Dialysis Solution 
+22.1 Dialysis Solution of 
+appropriate composition Solution - T     
+23 Psychotherapeutic Medicines 
+23.1 Antidepressants 
+23.1.1 Amitriptyline Hydrochloride Tablet 25mg, 50mg T S CHC   
+23.1.2 Imipramine 
+Tablet 10mg, 25mg T S    
+Syrup 25mg/5ml T S    
+23.1.3 Fluoxetine Tablet 10mg, 20mg T S    
+23.2 Antipsychotics 
+23.2.1 Atomoxetine  Tablet  40mg T     
+23.2.2 Carbamazepine Tablet 100mg, 200mg T     
+23.2.3 Chlorpromazine 
+Hydrochloride 
+Tablet 25mg, 50mg, 100mg T S CHC   
+Injection 25mg/ml T S CHC   
+23.2.4 Fluphenazine Decanoate Injection 25mg/ml, 100mg/ml T     
+23.2.5 Haloperidol 
+Tablet 1.5mg, 5mg T     
+Injection Mg/ml T     
+23.2.6 Lithium Carbonate Tablet 250mg, 400mg T     
+23.2.7 Methylphenidate Tablet  10mg T     
+23.2.8 Risperidone  Tablet  0.25 mg to 6.0 mg  T     
+23.3 Hypnotic/Sedative 
+23.3.1 Diazepam 
+Tablet 5mg, 10mg T S    
+Injection 5mg/ml T S    
+Solution per 
+Rectal 5mg/ml T S    
+23.3.2 Lorazepam Tablet 1mg, 2mg T S    
+--- PAGE 25 ---
+17 
+ 
+National Essential Medicines List for Sierra Leone  
+ International Non-
+Proprietary Name Dosage form Strength Level of Use 
+23.3.3 Melatonin  
+Tablet  3 mg T S    
+Oral solution  1 mg/ml  T S    
+23.3.4 Nitrazepam Tablet 5mg T S    
+24 Medicine Acting on the Respiratory Tract 
+24.1 Antiasthmatics 
+24.1.1 Adrenaline (Epinephrine) Injection 1mg/ml T S CHC CHP MCH
+P 
+24.1.2 Aminophylline 
+Tablet 100mg, 200mg T S    
+Injection 25mg/ml T S    
+24.1.3 Beclomethasone Aerosol 50mcg per metered dose T S    
+24.1.4 Salmeterol 
+Tablet 50mcg T S CHC CHP MCH
+P 
+Puff for 
+inhalation 50mcg/puff T S CHC CHP MCH
+P 
+24.1.5 Salbutamol 
+Tablet 2mg, 4mg T S CHC CHP MCH
+P 
+Respiratory 
+Solution 2mg/ml T S CHC CHP MCH
+P 
+Injection 50mcg/ml T S CHC CHP MCH
+P 
+Aerosol 100mcg per metered does T S CHC CHP MCH
+P 
+24.1.6 Sodium Cromoglycate Powder for 
+Inhalation 1mg, 5mg per dose T S    
+24.2  Eat, Nose and Throat (ENT) Medicines 
+24.2.1 Betamethasone Ear Drops 0.10% T S CHC CHP MCH
+P 
+Inhalation 0.10% T     
+24.2.2 Ciprofloxacin Eye/Ear Drops 0.3% T S CHC CHP MCH
+P 
+24.2.3 Cromoglycate, sodium Eye drop 2% T     
+24.2.4 Ephedrine Hydrochloride Drops 0.50% T S    
+24.2.5 Menthol Crystals 5% T S CHC CHP MCH
+P 
+24.2.6 Neomycin/Hydrocortisone 
+Polymyxin B Sulphate Drops 3,400IU/ml/1% 10,000IU T S    
+24.2.7 Xylometazoline Nasal Drop 0.5 %, 1% T S    
+25 Antineoplastic medicines  
+25.1 Anastrozole tab Tab  1 mg  T     
+25.2 Bicalutamide  Tab  50 mg  T     
+25.3 Capecitabine Tab  150mg, 500mg T     
+25.4 Cyproterone acetate  Tab, injection  50 mg, 100mg/ml T     
+25.5 Diethylstilbesterol  Tab  1mg, 5mg T     
+25.6 Docetaxel  Injection  20mg/ml T     
+25.7 Epirubicin  Injection  2 mg/ml T     
+25.8 Etoposide  Injection  20mg/ml T     
+25.9 Exemestane oral Tab  25 mg  T     
+25.10 Flutamide oral  Tab  250mg T     
+25.11 Goserelin Implant  3.6 mg , 10.8mg T     
+25.12 Ifosfamide  Powder for 
+injection  500 mg vial; 1g vial; 2g vial T     
+25.13 Oxaliplatin Powder for 
+injection 
+50 mg, 100 mg in vial  
+ 
+T  
+   
+25.14 Trastuzumab  Powder for 
+injection 60 mg; 150 mg; 440 mg in vial  T     
+25.15 Zoledronic acid Solution for 
+infusion 4 mg/100 mL in 100- mL bottle.  T     
+--- PAGE 26 ---
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 27 ---
+19 
+ 
+Medical Equipment, Consumables and Diagnostic Supplies 
+Last updated October 2021 
+ Description Level of Use 
+A. Basic Instrument Sets 
+A.1 Laparotomy Instrument Set  T S    
+A.2 Caesarian Instrument Set  T S    
+A.3 Delivery Instrument Set  T S CHC CHP MCHP 
+A.4 Manual Vacuum Aspirator (MVA)  T S CHC CHP  
+A.5 Resuscitation Kit- Mask (premature, newborn, pediatric, adult), self-inflating bag (240ml, 500ml), 
+mannequin, reusable suction device, radiant warmer  T S CHC CHP MCHP 
+A.6 Episiotomy Instrument Set  T S CHC CHP MCHP 
+A.7 Minor Surgical Eye Instrument Set  T S CHC   
+A.8 Chest Drainage Instrument Set  T S    
+A.9 Minor Surgery Instrument Set  T S CHC   
+A.10 Auriscope / Otoscope  T S CHC   
+A.11 Sphygmomanometer Aneroid with Adult Cuff, paediatric size  T S CHC CHP MCHP 
+A.12 Stethoscope for Basic Procedures Dual Head  T S CHC CHP MCHP 
+A.13 Weighing Machine Stand on Bathroom Type Metric  T S CHC CHP MCHP 
+A.14 Weighing Pack Infant with 3 Trousers and 2 Infant Slings  T S CHC CHP MCHP 
+A.15 PCR  T     
+A.16 COVID and EBOLA test kits  T S CHC T S 
+B Medical Supplies / Consumables 
+B.1 Bag Tablet self-seal plastic with plain write on panels  T S CHC CHP MCHP 
+B.2 Bandage elastic  T S CHC CHP MCHP 
+B.3 Bandage cotton WOW  T S CHC CHP MCHP 
+B.4 Bandages crepe (5cm x 4.5m)  T S CHC CHP MCHP 
+B.5 Bandages crepe (10cm x 4.5m)  T S CHC CHP MCHP 
+B.6 Bandage POP 50mm pk 80  T S CHC   
+B.7 Bandage POP 100mm pk 80  T S CHC   
+B.8 Bandage POP 150mm pk 80  T S CHC   
+B.9 Blade scalpel size 10 pk 100  T S CHC   
+B.10 Blade scalpel size 12 pk 100  T S CHC   
+B.11 Blade scalpel size 20 pk 100  T S CHC   
+B.12 Blade scalpel size 22 pk 100  T S CHC   
+B.13 Blade scalpel size 24 pk 100  T S CHC   
+B.14 Cannula IV 16G Sterile  T S CHC CHP MCHP 
+B.15 Cannula IV 18G Sterile  T S CHC CHP MCHP 
+B.16 Cannula IV 20G Sterile  T S CHC CHP MCHP 
+B.17 Cannula IV 22G Sterile  T S CHC CHP MCHP 
+B.18 Cannula IV 24G Sterile  T S CHC CHP MCHP 
+B.19 Catheter 8FG 5ml balloon Foley tape paediatric (2 ways)  T S    
+B.20 Catheter 10FG balloon pk 10 type paediatric (2 ways)  T S CHC CHP MCHP 
+B.21 Catheter 12FG balloon pk 10 30ml Foley Type Sterile (2 ways)  T S CHC CHP MCHP 
+B.22 Catheter 14FG balloon pk 10 30ml Foley Type Sterile (2 ways)  T S CHC CHP MCHP 
+B.23 Catheter 16FG balloon pk 10 30ml Foley Type Sterile (2 ways)  T S CHC CHP MCHP 
+B.24 Catheter 18FG balloon pk 10 30ml Foley Type Sterile (2 ways)  T S    
+B.25 Catheter 22FG balloon pk 10 30ml Foley Type Sterile( 2 way and 3 way)  T S    
+B.26 Catheter 24FG balloon pk 10 30ml Foley Type Sterile (2 way and 3 way)  T S CHC CHP MCHP 
+B.27 Cotton wool 100gm single roll absorbent  T S CHC CHP MCHP 
+B.28 Cotton wool 500gm single roll absorbent   T S CHC CHP MCHP 
+B.29 Curette Uterine flushing Rheinstator large  T S CHC CHP MCHP 
+B.30 Dish Kidney p/p autoclavable  T S CHC CHP MCHP 
+B.31 Gallipot s/s (28ml)  T S CHC CHP MCHP 
+B.32 Gallipot s/s (57ml)  T S CHC CHP MCHP 
+B.33 Gauze paraffin dressing (10cm x 10cm) sterile pieces  T S CHC CHP MCHP 
+B.34 Glove Examination 6-71/2 pk 100  T S CHC CHP MCHP 
+B.35 Gloves Household large 1 pair latex  T S CHC CHP MCHP 
+B.36 Gloves Surgeon sizes 6 sterile  T S CHC CHP MCHP 
+B.37 Gloves Surgeon sizes 7 sterile  T S CHC CHP MCHP 
+B.38 Gloves surgeon sizes 7 1/2 sterile  T S CHC CHP MCHP 
+B.39 Gloves surgeon sizes 8 sterile  T S CHC CHP MCHP 
+B.40 Glucometer   T S CHC CHP MCHP 
+B.41 IV admin set blood/solution 150ml paediatric  T S    
+B.42 IV admin set blood/solution 150ml without airway or needle  T S    
+B.43 IV admin set blood/solution with IV needle and vent  T S    
+B.44 Infusion set scalp vein 21g butterfly sterile  T S CHC CHP MCHP 
+B.45 Mask Face surgical disp pk 300  T S CHC CHP MCHP 
+--- PAGE 28 ---
+20 
+ 
+B.46 Microscope cover strips  T S CHC   
+B.47 Microscope oil immersion  T S CHC   
+B.48 Microscope slide frosted end   T S CHC   
+B.49 Nebulizer  T S CHC   
+B.50 Needle dental 27g long pk 100  T S CHC   
+B.51 Peak flow meter  T S CHC CHP MCHP 
+B.52 Pulse oximeter  T S CHC CHP MCHP 
+B.53 Plaster Zinc Oxide (2.5cm x 10m)  T S CHC CHP MCHP 
+B.54 Plaster Zinc Oxide (5cm x 10m)  T S CHC CHP MCHP 
+B.55 Plaster Zinc Oxide (7.5cm x 10m)  T S CHC CHP MCHP 
+B.56 Pregnancy test for urine pk 100  T S CHC CHP MCHP 
+B.57 Spacers for inhalers  T S CHC CHP MCHP 
+B.58 Swabs gauze 8ply (5 x 5cm) non-sterile  T S CHC CHP MCHP 
+B.59 Cotton Gauze (Roll)  T S CHC CHP MCHP 
+B.60 Stethoscope (fetal)  T S CHC CHP MCHP 
+B.61 Suture absorb Vicryl 0 with needle PK 12   T S CHC CHP  
+B.62 Suture absorb Vicryl 1 with needle PK 12  T S CHC CHP  
+B.63 Suture absorb Vicryl 2 with needle PK 12  T S CHC CHP  
+B.64 2/0 Vicryl Suture with needle  T S CHC CHP MCHP 
+B.71 Suture Silk 0 PK 12  T S CHC CHP MCHP 
+B.72 Suture Silk 2/0 PK 12  T S CHC CHP MCHP 
+B.73 Suture Nylon plus needle 1 100cm reel black polyamide  T S CHC CHP MCHP 
+B.74 Suture Nylon plus needle 0 100cm reel black polyamide  T S CHC   
+B.75 Suture Nylon plus needle 2/0 100cm reel black polyamide  T S CHC CHP MCHP 
+B.76 Suture Nylon plus needle 3/0 100cm reel black polyamide  T S CHC   
+B.77 Suture Nylon plus needle 4/0 100cm reel black polyamide  T S CHC   
+B.79 Suture Nylon plus needle 8/0 100cm reel black polyamide  T S CHC   
+B.80 Polydioxnone Absorbable Suture with needle 1  T     
+B.81 Polydioxnone Absorbable Suture with needle 0  T     
+B.82 Polydioxnone Absorbable Suture with needle 1/0  T     
+B.83 Polydioxnone Absorbable Suture with needle 2/0  T     
+B.84 Polydioxnone Absorbable Suture with needle 3/0  T     
+B.85 Polydioxnone Absorbable Suture with needle 4/0  T     
+B.86 Syringe 1ml insulin pk 100  T S CHC CHP MCHP 
+B.87 Syringe 2ml Luerdisp/needle 21 g x 1 1/2 pk 100  T S CHC CHP MCHP 
+B.88 Syringe 2ml Luerdisp/needle 23 g x 1 1/2 pk 100  T S CHC CHP MCHP 
+B.89 Syringe 5ml/needle 21g x 1/12 pk 100  T S CHC CHP MCHP 
+B.90 Syringe 10ml Luerdisp 100  T S CHC CHP MCHP 
+B.91 Syringe 20ml Luerdisp pk 100  T S CHC CHP MCHP 
+B.92 Syringes 50mls neonate  T S CHC CHP MCHP 
+B.93 Thermometer clinical digital Centigrade in plastic casing  T S CHC CHP MCHP 
+B.94 Tube infant feeding 6 FG PK 100 disposable  T S    
+B.95 Tube infant feeding 8 FG PK 100 disposable  T S    
+B.96 Tube infant feeding 10 FG PK 100 disposable   T S    
+B.97 Tape measure  T S CHC CHP MCHP 
+B.98 MUAC TAPE  T S CHC CHP MCHP 
+B.99 Tape umbilical unsterile 20m  T S CHC CHP MCHP 
+B.100 Vacuum aspirator for Uterine Evacuation  T S CHC   
+B.101 Vacuum extractor cup 2 1/4 (60mm 0 anterior suction with traction chain  T S CHC   
+B.102 Vacuum extractor tubing length 1.5cm of silicone rubber  T S CHC   
+B.103 
+ 
+Infantometer  T S CHC CHP MCHP 
+B.104 HEIGHT BOARD  T S CHC CHP MCHP 
+B.105 WEIGHING BOWLS  T S CHC CHP MCHP 
+B.106 INJECTION NEEDLES 18,19,20,21,22,23,24G  T S CH CHP MCHP 
+B.107 NG TUBE French 5G  T S    
+B.108 Umbilical catheter  T S    
+B.109 Radio opaque NG tube  T     
+B.110 Infants salter scale 25kg  T S CHC CHP MCHP 
+B.111 Bathroom scale  T S CHC CHP MCHP 
+B.112 Electronic Infant/Child Scale  T S CHC CHP  
+B.113 ARI TIMER  T S CHC CHP MCHP 
+B.114 PHOTOTHERAPY DEVICE  T S    
+B.115 CERVICAL COLAR ADULT/INFANT  T S CHC CHP MCHP 
+B.119 Neonatal Incubator  T S    
+B.120 Oxygen concentrators  T S CHC   
+B.121 MECHANICAL VENTILATORS  T S    
+B.122 External Fixation Driller  T S    
+B.123 INFUSION PUMP  T S    
+--- PAGE 29 ---
+21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B.124 SYRINGE PUMP  T S    
+B.125 WHO PREQUALIFIED REFRIGERATORS  T S CHC CHP MCHP 
+B.126 Vaccine refrigerator  T S CHC CHP MCHP 
+B.127 Blood bank refrigerator  T S CHC CHP MCHP 
+B.128 PATIENT MONITORS  T S    
+B.129 DRESSING DRUMS  T S CHC CHP MCHJP 
+B.130 GAUZE ADSORBENT  T S CHC   
+B.131 ANAESTHETIC MACHINES  T S    
+B.132 Infrared THERMOMETERS  T S CHC CHP MCHP 
+B.133 ULTRASONIC DOPPLERS  T S    
+B.134 Pulse Oximeter  T S CHC CHP MCHP 
+B.135 CPAP machine  T S CHC CHP MCHP 
+B.136 Soluset  T S CHC CHP MCHP 
+B.137 Haemoque  T S CHC CHP MCHP 
+B.138 Video laryngoscope + Accessories  T S CHC CHP MCHP 
+B.139 Bilurubinometer (Transcutaneous)  T S CHC CHP MCHP 
+C Basic Diagnostic Kits 
+C.1 Rapid malaria test kit  T S CHC CHP MCHP 
+C.2 HIV 1 & 2 Rapid Test Kit, Determine, Pcs  T S CHC CHP MCHP 
+C.3 HIV 1 & 2 Rapid Test Kit, SD Bioline  T S CHC CHP MCHP 
+C.4 HIV 1 & 2 Rapid Test Kit, Unigold  T S CHC CHP MCHP 
+C.5 HIV/Syphilis Test Kit, SD Bioline  T S CHC CHP MCHP 
+C.6 Urine Analysis test strip ph, glucose, protein, bottle 50  T S CHC CHP MCHP 
+C.7 Urine Analysis test strip ph, glucose, protein, ketones, blood, bilirubin bottle 50  T S CHC CHP MCHP 
+C.8 Pregnancy Test Kit  T S CHC CHP MCHP 
+--- PAGE 30 ---
+22 
+ 
+INDEX 
+5 
+5-Fluroracil · 6 
+8 
+8 
+20 · 1 
+A 
+Acetazolamide · 14 
+Acetyl cysteine · 2 
+Acetylsalicylic Acid · 1 
+Aciclovir · 14 
+Actinomycin-D · 6 
+Acyclovir · 5 
+Adrenaline · 1, 2, 9, 16 
+Adrenaline (Epinephrine) · 2 
+Albendazole · 3 
+Allopurinol · 2 
+Allyloestrenol · 13 
+Amethiocane (Tetracaine) · 14 
+Amidotrizoate Sodium or Meglumine · 10 
+Amikacin Sulphate · 3, 4 
+Amiloride Hydrochloride · 11 
+Aminophyline · 16 
+Amitriptyline Hydrochloride · 15 
+Amoxicillin · 3 
+Antenolol · 8 
+Atropine · 1, 2, 14 
+Atropine Sulphate · 1, 2 
+Auriscope/Otoscope · 18 
+B 
+Bag tablets self-seal plastic with plain 
+write on panels · 18 
+Bandage cotton WOW · 18 
+Bandage elastic · 18 
+Bandage POP 100mm pk 80 · 18 
+Bandage POP 150mm pk 80 · 18 
+Bandage POP 50mm pk 80 · 18 
+Bandages crepe (10cm x 4.5m) · 18 
+Bandages crepe (5cm x 4.5m) · 18 
+Barium Sulphate · 10 
+Beclomethasone · 16 
+Bendrofluazide · 8, 11 
+Benzathine Penicillin · 3 
+Benzhexol Hydrochloride · 6 
+Benzoic Acid + Salicylic Acid · 9 
+Benzoyl Peroxide · 10 
+Benzyl  Penicillin · 3 
+Betamethasone · 9, 14, 16 
+Bisacodyl · 11 
+Blade scalpel size 10 pk 100 · 18 
+Blade scalpel size 12 pk 100 · 18 
+Blade scalpel size 20 pk 100 · 18 
+Blade scalpel size 22 pk 100 · 18 
+Blade scalpel size 24 pk 100 · 18 
+Bleomycin · 6 
+Bromocriptine · 12 
+Bupivacaine Hydrochloride without 
+Adrenaline · 1 
+--- PAGE 31 ---
+23 
+ 
+C 
+Caesarian Instrument Set · 18 
+Calamine lotion · 9 
+Calcium Gluconate · 2 
+Cannula IV 16G Sterile · 18 
+Cannula IV 18G Sterile · 18 
+Cannula IV 20G Sterile · 18 
+Cannula IV 22G Sterile · 18 
+Cannula IV 24G Sterile · 18 
+Capreomycin Sulphate · 4 
+Carbamazepine · 2, 15 
+Carbidopa · 6 
+Carbimazole · 12 
+Catheter 10FG balloon pk 10 type 
+paediatric · 18 
+Catheter 8FG 5ml balloon Foley tape 
+paediatric · 18 
+Ceftriaxone · 4 
+Cephalexin · 3 
+Chest Drainage Instrument Set · 18 
+Chlohexidine Gluconate · 11 
+Chloramphenicol · 3 
+Chlorhexidine · 10, 11 
+Chloride base compound · 11 
+Chloropromazine Hydrochloride · 15 
+Chloroquine · 2 
+Chlorpheniramine · 2 
+Ciprofloxacin · 4 
+Clemastine · 2 
+Clomiphene citrate · 12 
+Clotrimazole · 5, 9 
+Cloxacillin · 3 
+Coal Tar · 10 
+Colchicine · 2 
+Compound Sodium Lactate · 7 
+Cyclopentolate · 14 
+Cyclophosphamide · 6 
+Cycloserine · 4 
+Cytarabine · 6 
+D 
+Dactinomycin · 6 
+Delivery Instrument Set · 18 
+Dexamethasone · 2, 13 
+Dextran · 7 
+Dextrose(Glucose) · 7 
+Dialysis Solution of appropriate 
+composition · 15 
+Diazepam · 1, 15 
+Diclofenac Sodium · 1 
+Diethylcarbamazine · 3 
+Digoxin · 9 
+Dilatation and Curettage Instrument Set · 
+18 
+Diphenhydramine · 2 
+Dopamine Hydrochloride · 9 
+Doxorubicin · 6 
+Doxycycline · 3 
+E 
+Enalapril · 8 
+Episiotomy Instrument Set · 18 
+Ergometrine · 15 
+Ergometrine Maleate · 15 
+Erythromycin · 4 
+Ethambutol · 4, 5 
+Ethanol /Alcohol · 11 
+Ethanol Absolute · 14 
+Ethanol/Alcohol · 11 
+Ethinyloestradiol · 13 
+Ethionamide · 4 
+--- PAGE 32 ---
+24 
+ 
+F 
+Ferrous Sulphate · 6 
+Fluconazole · 5 
+Fluorescein · 11 
+Fluoxetine · 15 
+Fluphenazine Decanoate · 15 
+Folic Acid · 6 
+Formaldehyde · 11 
+Furosemide · 8, 11 
+Fusidic Acid · 10 
+G 
+Gamma Benzene Hexachloride · 10 
+Gentamicin · 3 
+Gentamycin · 14 
+Glibenclamide · 12 
+Glucose Plus Sodium Chloride · 7 
+Glutaraldehyde · 11 
+Glycerin · 11 
+Glyceryl Trinitrate (Nitroglycerin) · 8 
+Griseofulvin · 5 
+H 
+Haemacel · 7 
+Haloperidol · 15 
+Halothane · 1 
+HEPARIN Sodium · 7 
+Homatropine · 14 
+Hydralazine* · 8 
+Hydrochlorothiazide · 8 
+Hydrocortisone · 2, 10, 13, 14, 16 
+Hydrocortisone Sodium Succinate · 2 
+Hydrogen Peroxide · 11 
+Hydroxocobalamin · 6 
+Hyoscine N-butylbromide · 12 
+I 
+Ibuprofen · 1 
+Imipramine · 15 
+Insulin Lente · 12 
+Iodine Sol.(Diff Prep) · 11 
+Iohexol · 11 
+Isoniazid · 4, 5 
+Isosorbide Dinitrate · 8 
+K 
+Ketamine Hydrochloride · 1 
+L 
+Laparatomy Instrument Set · 18 
+Leucovorin Calcium (Calcium Folinate) · 6 
+Levamisole · 3 
+Levodopa · 6 
+Levofloxacin · 4 
+Lignocaine (Lidocaine) · 1, 8 
+Lignocaine (Lidocaine) + Adrenaline 
+(Epinephrine) · 1 
+Lignocaine (Lidocaine) Hydrochloride · 1 
+Liquid Paraffin · 12 
+Lithium Carbonate · 15 
+Lorazepam · 16 
+Lubricating Jelly · 10 
+Lugol’s Iodine Oral Solution · 12 
+Lysol (cresol +Soap Sol) · 11 
+--- PAGE 33 ---
+25 
+ 
+M 
+Mannitol · 11 
+Mebendazole · 3 
+Metformin · 13 
+Methimazole · 12 
+Methotrexate · 6 
+Methyldopa · 8 
+Methylrosanilinium Chloride (Crystal 
+Violet/Gentian Violet) · 10 
+Metoclopramide · 12 
+Metronidazole · 3, 5 
+Miconazole · 5, 9 
+Minor Surgery Instrument Set · 18 
+Minor Surgical Eye Instrument Set · 18 
+Misoprostol · 12, 15 
+Morphine Sulphate · 2 
+Multivitamins · 6 
+N 
+Naloxone Hydrochloride · 2 
+National Essential Medicines List for 
+Sierra Leone 2021 · 1 
+Neomycin + Bacitracin · 10 
+Niclosamide · 3 
+Nifedipine · 8 
+Nitrazepam · 16 
+NItrofurantoin · 3 
+Norethisterone · 12 
+Nystatin · 5, 9 
+O 
+Ofloxacin · 4 
+Omeprazole · 12 
+Oral Rehydration salt · 7 
+Oral Rehydration Salt · 12 
+Oxygen (Medical Grade) inhalation. · 1 
+Oxytocin · 15 
+P 
+Paracetamol · 1 
+Paraffin, Soft White B.P · 10 
+Pethidine Hydrochloride · 2 
+Phenobarbitone Sodium · 2 
+Phenol · 11 
+Pilocarpine · 14 
+Podophylin · 10 
+Potassium Chloride · 7 
+Potassium Iodine in  Purified water · 12 
+Povidone-iodine · 11 
+Povidone-Iodine · 10 
+Praziquantel · 5 
+Prednisolone · 2, 13, 14 
+Probenecid · 2 
+Procarbazine · 6 
+Protamine Sulphate · 2 
+Pyrazinamide · 4, 5 
+Pyridoxine · 7 
+R 
+Ranitidine · 12 
+Rapid malaria test kit · 20 
+S 
+Salbutamol · 16 
+Salicylic Acid · 10 
+Silver Nitrate · 10 
+Silver Sulphadiazine · 10 
+--- PAGE 34 ---
+26 
+ 
+Sodium  Chloride · 7 
+Sodium Bicarbonate · 7 
+Sodium Choride 2.6g/L · 7 
+Sodium Cromoglycate · 16 
+Sodium Hypochlorite · 11 
+Sodium Valproate · 2 
+Spectinomycin · 3 
+Sphygmomanometer aneroid with adult 
+Cuff · 18 
+Spironolactone · 11 
+Sterile water for injection · 7 
+Stethoscope economy model for basic 
+procedures dual head · 18 
+Sulphur · 10 
+Surgical Spirit · 11 
+T 
+Tamoxifen · 12 
+Tape umbilical unsterile 20m · 19 
+Testosterone · 13 
+Tetracycline · 10, 15 
+Therapeutic vitamins and Mineral 
+complex · 7 
+Thiopentone Sodium · 1 
+Thyroxine Sodium · 12 
+Timolol Maleate · 15 
+Tinidazole · 5 
+Tramadol Hydrochloride · 2 
+Tropicamide · 15 
+U 
+Urine Analysis test strip pH, glucose, 
+protein, bottle 50 · 20 
+Urine Analysis test strip pH, glucose, 
+protein, ketone, blood, bilirubin bottle 
+50 · 20 
+V 
+Vacuum aspirator early TOP pk 30 sterile 
+· 19 
+Vacuum extractor cup 2 1/4 (60mm 0 
+anterior suction with traction chain · 19 
+Vacuum extractor tubing length 1.5cm of 
+silicone rubber · 19 
+Verapamil · 8 
+Verapamil Hydrochloride · 8 
+Vincristine  Sulphate · 6 
+Vitamin  K(phytomenadine) · 8 
+Vitamin A · 7 
+Vitamin B1 · 7 
+W 
+Warfarin Sodium · 8 
+Weighing Machine stand on bathroom 
+type metric · 18 
+Weighing Pack infant with 3 trousers and 
+2 infant slings · 18 
+X 
+Xylometazoline · 16 
+Z 
+Zinc Oxide · 10, 19 
+Zinc Supplement · 7 
+--- PAGE 35 ---
+27 
+ 
+ 
