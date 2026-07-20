@@ -42,9 +42,10 @@ Everything runs from the same Express application and port. The SQLite database 
 
 ## Database schema
 
-- `products`: medicine identity, reviewed medical fields, availability, review state, and wholesale fields (units per box, boxes per carton, minimum/available cartons, price per carton in cents, pricing mode, wholesale status, packaging review status)
+- `medicines`: canonical medicine identity (generic name, active ingredient, therapeutic category, prescription status, EML status, review state) grouping exact product variations
+- `products`: one exact product variation each (medicine link, brand, strength, concentration, dosage form, route, container type/volume, formulation state, reconstitution/dilution flags, dose container, professional-use, cold-chain and storage attributes, identity fingerprint), plus reviewed medical fields, availability, review state, and wholesale fields (units per box, boxes per carton, minimum/available cartons, price per carton in cents, pricing mode, wholesale status, packaging review status)
 - `product_images`: paths, hashes, dimensions, angles, sequence order, verification, OCR fields, and source/license review
-- `medicine_facts`: structured, source-linked facts with review state
+- `medicine_facts`: structured, source-linked facts with review state and scope — `medicine` facts publish to every variation of the canonical medicine, `product` facts only to one exact record; facts never cross scopes automatically
 - `sources`: organization, title, URL, access date, and source type
 - `review_queue`: uncertain image and metadata decisions
 - `inquiries` and `inquiry_items`: persistent customer inquiries with reference numbers, reasons, destinations, carton quantities, and packaging/price snapshots taken from the database at submission time
@@ -52,6 +53,18 @@ Everything runs from the same Express application and port. The SQLite database 
 - `import_runs`: repeatable importer summaries
 
 Retail pricing remains deliberately absent. Wholesale pricing exists only per carton, only when an administrator enters a supplier-confirmed value, and no payment is ever processed.
+
+## Canonical medicines and the guided variation selector
+
+Migration v3 groups exact products under canonical medicines. The backfill links products by exact generic name only; products without a generic name are queued as `needs_medicine_link` for human review and are never merged automatically. Existing slugs, images, inquiries, and orders keep working.
+
+On a product page the flat sibling list is replaced by a guided selector: **dosage form → strength → brand and presentation**. Every option is derived from real sibling records of the same medicine, so impossible combinations cannot appear, and choosing a presentation navigates to that exact product record (URL, images, packaging, stock, price, and facts all change together; the browser back button works). A medicine with only one record shows no selector.
+
+Injection and infusion records support reviewed label attributes (container type and volume, formulation state, route as stated on the reviewed label, reconstitution/dilution, single-dose or multidose, cold chain, storage). These render in a separate "Injection details" section with a professional-use notice and are hidden for non-injection forms. Routes are never inferred from product names, and the site never gives administration instructions.
+
+Medical information sections (overview, uses, side effects split into common/serious/emergency, warnings, interactions, pregnancy, storage) render only reviewed facts with visible sources; anything unreviewed stays "Verified information is not yet available." Facts are drafted and reviewed in the admin console (Medical facts view); `npm run enrich:dailymed` remains the private research-candidate importer.
+
+`npm run audit:catalogue` prints a data-quality summary (missing strengths, forms, packaging, images, facts, injection attributes, stale reviews, potential duplicate fingerprints) and writes `data/catalogue-audit.json`.
 
 ## Wholesale ordering flow
 
@@ -189,6 +202,8 @@ npm run seed              Import products and images
 npm run import-products   Repeatable product/image import
 npm run enrich:dailymed   Store private DailyMed label candidates
 npm run seed:fixtures     Create dev-only wholesale fixture products (-- --remove deletes them)
+npm run seed:demo         Stamp demo wholesale data on real products (-- --remove resets)
+npm run audit:catalogue   Catalogue data-quality report (JSON + summary)
 npm test                  Run API and persistence tests
 ```
 
@@ -201,7 +216,9 @@ npm test                  Run API and persistence tests
 | GET | `/api/products/:slug` | Detailed reviewed product record |
 | GET | `/api/products/:slug/images` | Viewer mode and reviewed images |
 | GET | `/api/categories` | Category counts |
-| GET | `/api/search?q=` | Catalogue search |
+| GET | `/api/search?q=` | Catalogue search (multi-word; matches strength, concentration, container, manufacturer) |
+| GET | `/api/medicines` | Canonical medicines with product counts |
+| GET | `/api/medicines/:slug` | Medicine with all exact product variations and reviewed medicine-level facts |
 | POST | `/api/inquiries` | Persist an availability or wholesale inquiry (rate-limited, deduplicated) |
 | POST | `/api/cart/verify` | Server-side cart recalculation: packaging math, pricing, stock, and checkout eligibility |
 | POST | `/api/orders` | Store a revalidated wholesale order request as `pending_verification` (rate-limited, deduplicated) |

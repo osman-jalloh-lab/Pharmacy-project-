@@ -29,6 +29,8 @@ const wholesaleId = insertWholesale("test-amoxicillin-500", "Test Amoxicillin 50
 const quoteId = insertWholesale("test-paracetamol-quote", "Test Paracetamol 500 mg", { generic_name: "Test Paracetamol", pricing_mode: "quote_required", price_per_carton_cents: null, wholesale_status: "quote_required", direct_checkout_enabled: 0, available_cartons: null, minimum_cartons: 5 });
 const incompleteId = insertWholesale("test-omeprazole-incomplete", "Test Omeprazole 20 mg", { generic_name: "Test Omeprazole", units_per_box: null, boxes_per_carton: null, packaging_review_status: "needs_review", direct_checkout_enabled: 0 });
 const outOfStockId = insertWholesale("test-cipro-oos", "Test Ciprofloxacin 500 mg", { generic_name: "Test Ciprofloxacin", wholesale_status: "out_of_stock", available_cartons: 0 });
+const suspensionId = insertWholesale("test-amoxicillin-suspension", "Test Amoxicillin 125 mg/5 mL Suspension", { strength: "125 mg/5 mL", dosage_form: "Oral suspension", units_per_box: 1, unit_kind: "bottles", boxes_per_carton: 48, minimum_cartons: 5, price_per_carton_cents: 30000 });
+const injectionId = Number(db.prepare(`INSERT INTO products(slug,display_name,category,review_status,generic_name,brand_name,strength,dosage_form,manufacturer,units_per_box,unit_kind,boxes_per_carton,minimum_cartons,available_cartons,price_per_carton_cents,currency,pricing_mode,wholesale_status,wholesale_enabled,direct_checkout_enabled,packaging_review_status,concentration,route,container_type,container_volume_ml,formulation_state,requires_reconstitution,dose_container,professional_use_only,storage_requirements) VALUES ('test-ceftriaxone-1g-vial','Test Ceftriaxone 1 g Powder for Injection','Test Category','reviewed','Test Ceftriaxone','Test Brand','1 g','Powder for injection','Test Labs',10,'vials',10,5,80,500000,'SLE','fixed','in_stock',1,1,'confirmed','1 g per vial after reconstitution','Stated on reviewed label','vial',10,'powder',1,'single_dose',1,'Store below 25 °C, protect from light')`).run().lastInsertRowid);
 const imageId = Number(db.prepare("INSERT INTO product_images(product_id,local_path,public_path,file_hash,is_primary,is_verified,review_status,angle_label) VALUES (?,?,?,?,?,?,?,?)").run(productId, ".product_image_candidates/test.jpg", "/media/test.jpg", "abc123", 1, 1, "reviewed", "Front").lastInsertRowid);
 const queueId = Number(db.prepare("INSERT INTO review_queue(entity_type,entity_id,product_id,reason,details) VALUES (?,?,?,?,?)").run("image", imageId, productId, "test_review", "{}").lastInsertRowid);
 const app = (await import("../server.js")).default;
@@ -44,7 +46,7 @@ async function request(url, options = {}) {
 
 test("health, catalogue, categories, search, details, and images", async () => {
   let result = await request("/api/health"); assert.equal(result.response.status, 200); assert.equal(result.body.database, "connected");
-  result = await request("/api/products"); assert.equal(result.body.total, 5); assert.equal(result.body.items.find(p => p.slug === "test-medicine").primaryImage, "/media/test.jpg");
+  result = await request("/api/products"); assert.equal(result.body.total, 7); assert.equal(result.body.items.find(p => p.slug === "test-medicine").primaryImage, "/media/test.jpg");
   result = await request("/api/search?q=Test Medicine"); assert.equal(result.body.items.length, 1);
   result = await request("/api/categories"); assert.equal(result.body.items[0].name, "Test Category");
   result = await request("/api/products/test-medicine"); assert.equal(result.body.viewerMode, "single"); assert.equal(result.body.images.length, 1);
@@ -76,6 +78,71 @@ test("product payload exposes wholesale summary, packaging honesty, and variatio
   assert.equal(result.body.wholesale.canAddToCart, false);
   result = await request("/api/search?q=Amoxicillin 500");
   assert.ok(result.body.items.some(p => p.slug === "test-amoxicillin-500"), "search matches strength");
+});
+
+test("canonical medicines group exact product variations without merging them", async () => {
+  let result = await request("/api/medicines?q=Test Amoxicillin");
+  const medicine = result.body.items.find(m => m.genericName === "Test Amoxicillin");
+  assert.ok(medicine, "backfill created the canonical medicine");
+  assert.equal(medicine.productCount, 2, "capsules and suspension stay separate products under one medicine");
+  result = await request(`/api/medicines/${medicine.slug}`);
+  assert.equal(result.body.products.length, 2);
+  assert.ok(result.body.products.some(p => p.dosageForm === "Capsules") && result.body.products.some(p => p.dosageForm === "Oral suspension"));
+  result = await request("/api/products/test-amoxicillin-500");
+  assert.equal(result.body.medicine.genericName, "Test Amoxicillin");
+  assert.equal(result.body.variations.length, 1, "sibling variations come only from the same medicine");
+  assert.equal(result.body.variations[0].dosageForm, "Oral suspension");
+  assert.equal(result.body.variations[0].slug, "test-amoxicillin-suspension");
+});
+
+test("injection products expose reviewed container attributes; tablets stay clean", async () => {
+  let result = await request("/api/search?q=ceftriaxone 1 g vial");
+  assert.ok(result.body.items.some(p => p.slug === "test-ceftriaxone-1g-vial"), "container-qualified search finds the injection");
+  result = await request("/api/products/test-ceftriaxone-1g-vial");
+  assert.equal(result.body.containerType, "vial");
+  assert.equal(result.body.formulationState, "powder");
+  assert.equal(result.body.requiresReconstitution, true);
+  assert.equal(result.body.professionalUseOnly, true);
+  assert.equal(result.body.containerVolumeMl, 10);
+  const verify = await request("/api/cart/verify", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ items: [{ productId: injectionId, cartonQuantity: 5 }] }) });
+  assert.equal(verify.body.lines[0].unitKind, "vials", "injection carton math speaks in vials");
+  assert.equal(verify.body.lines[0].totalUnits, 500);
+  result = await request("/api/products/test-amoxicillin-500");
+  assert.equal(result.body.containerType, null, "capsule record carries no injection attributes");
+  assert.equal(result.body.formulationState, null);
+});
+
+test("fact scoping: medicine facts publish to every variation, pending facts stay private", async () => {
+  const medicineId = getDb().prepare("SELECT medicine_id FROM products WHERE id=?").get(wholesaleId).medicine_id;
+  getDb().prepare("INSERT INTO medicine_facts(medicine_id,scope,fact_type,title,content,review_status,last_reviewed_at) VALUES (?,?,?,?,?,?,CURRENT_TIMESTAMP)").run(medicineId, "medicine", "common_uses", "Common uses", "Reviewed medicine-level statement.", "reviewed");
+  getDb().prepare("INSERT INTO medicine_facts(product_id,scope,fact_type,title,content,review_status) VALUES (?,?,?,?,?,?)").run(wholesaleId, "product", "storage", "Storage", "Unreviewed product-level statement.", "pending");
+  let result = await request("/api/products/test-amoxicillin-500");
+  assert.ok(result.body.facts.some(f => f.scope === "medicine" && f.factType === "common_uses"), "reviewed medicine-scope fact published");
+  assert.ok(!result.body.facts.some(f => f.reviewStatus === "pending"), "pending facts never reach the public payload");
+  result = await request("/api/products/test-amoxicillin-suspension");
+  assert.ok(result.body.facts.some(f => f.factType === "common_uses"), "sibling variation shares the medicine-level fact");
+  result = await request("/api/admin/products/test-amoxicillin-500", { headers: { authorization: auth } });
+  assert.ok(result.body.facts.some(f => f.reviewStatus === "pending"), "admin sees pending facts");
+});
+
+test("admin manages medicines, drafts and reviews facts, and reads completeness", async () => {
+  const medicine = (await request("/api/medicines?q=Test Ceftriaxone")).body.items[0];
+  let result = await request(`/api/admin/medicines/${medicine.slug}`, { headers: { authorization: auth } });
+  assert.equal(result.response.status, 200);
+  result = await request(`/api/admin/medicines/${medicine.id}`, { method: "PATCH", headers: { authorization: auth, "content-type": "application/json" }, body: JSON.stringify({ therapeuticCategory: "Antibiotics", reviewStatus: "reviewed" }) });
+  assert.equal(result.response.status, 200);
+  result = await request("/api/admin/facts", { method: "POST", headers: { authorization: auth, "content-type": "application/json" }, body: JSON.stringify({ scope: "medicine", medicineId: medicine.id, factType: "warnings", title: "Important warnings", content: "Draft awaiting review." }) });
+  assert.equal(result.response.status, 201);
+  const factId = result.body.id;
+  assert.ok(!(await request("/api/products/test-ceftriaxone-1g-vial")).body.facts.some(f => f.id === factId), "draft not public");
+  result = await request(`/api/admin/facts/${factId}`, { method: "PATCH", headers: { authorization: auth, "content-type": "application/json" }, body: JSON.stringify({ reviewStatus: "reviewed" }) });
+  assert.equal(result.response.status, 200);
+  assert.ok((await request("/api/products/test-ceftriaxone-1g-vial")).body.facts.some(f => f.id === factId), "approved fact published");
+  result = await request("/api/admin/completeness", { headers: { authorization: auth } });
+  assert.equal(result.body.totalProducts, 7);
+  assert.ok(result.body.missing_reviewed_image >= 6, "completeness counts products without reviewed images");
+  result = await request("/api/admin/completeness?missing=injection_missing_route", { headers: { authorization: auth } });
+  assert.ok(Array.isArray(result.body.items), "missing-field drill-down returns items");
 });
 
 test("cart verification calculates cartons, boxes, units, and totals server-side", async () => {
@@ -117,6 +184,10 @@ test("orders are revalidated and repriced from the database", async () => {
   const stored = getDb().prepare("SELECT * FROM order_items WHERE order_id=?").get(result.body.id);
   assert.equal(stored.price_per_carton_cents_snapshot, 12000);
   assert.equal(stored.boxes_per_carton_snapshot, 24);
+  assert.equal(stored.dosage_form_snapshot, "Capsules");
+  assert.equal(stored.strength_snapshot, "500 mg");
+  assert.equal(stored.unit_kind_snapshot, "strips");
+  assert.equal(stored.brand_snapshot, "Test Brand");
 
   result = await request("/api/orders", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ ...contact, items: [{ productId: wholesaleId, cartonQuantity: 20 }] }) });
   assert.equal(result.response.status, 409, "duplicate order rejected");

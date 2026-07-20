@@ -46,7 +46,24 @@ assert.match(summary20, /20 cartons × 20 boxes per carton = 400 boxes/);
 assert.match(summary20, /400 boxes × 10 strips per box = 4,000 strips/);
 assert.match(summary20, /Le 2,750 per carton/);
 assert.match(summary20, /Le 55,000/);
-assert.equal(await page.locator(".variations .variation").count(), 3, "current record plus two variations listed");
+// Guided selector: dosage form -> strength -> exact presentation, real combinations only.
+assert.equal(await page.locator('[data-sel-group="form"]').count(), 2, "two dosage forms exist for the fixture medicine");
+assert.equal(await page.locator('[data-sel-group="form"][aria-pressed="true"]').innerText(), "Capsules (2)", "current dosage form preselected");
+assert.equal(await page.locator('[data-sel-group="strength"]').count(), 2, "capsule strengths listed");
+assert.match(await page.locator(".sel-presentations").innerText(), /Currently viewing/);
+await page.locator('[data-sel-group="strength"]', { hasText: "250 mg" }).click();
+assert.ok(await page.locator('.sel-presentations a[href*="fixture-amoxicillin-250-capsules"]').isVisible(), "250 mg resolves to the exact sibling record");
+await page.locator('[data-sel-group="form"]', { hasText: "Oral suspension" }).click();
+assert.ok(await page.locator('.sel-presentations a[href*="fixture-amoxicillin-suspension"]').isVisible(), "suspension form resolves to the exact suspension record");
+assert.equal(await page.locator('[data-sel-group="strength"]').count(), 1, "impossible strength combinations are not offered");
+await page.locator('.sel-presentations a[href*="fixture-amoxicillin-suspension"]').click();
+await page.waitForLoadState("networkidle");
+assert.match(page.url(), /fixture-amoxicillin-suspension/, "selecting a presentation updates the URL to the exact product");
+await page.goBack();
+await page.waitForLoadState("networkidle");
+assert.match(page.url(), /fixture-amoxicillin-500-capsules/, "browser back returns to the previous exact product");
+await page.locator("#cartonQty").fill("20");
+await page.waitForTimeout(120);
 
 // 3. Invalid quantities are blocked with clear messages.
 await page.locator("#cartonQty").fill("5");

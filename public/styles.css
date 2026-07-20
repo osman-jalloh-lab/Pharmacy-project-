@@ -27,6 +27,16 @@
 .ws-feedback:not(:empty){margin-top:.9rem;background:#d2f7dd;border:1px solid #9fe4b8;border-radius:13px;padding:.8rem 1rem}.ws-feedback p{margin:.35rem 0}
 .ws-legal{color:var(--muted);font-size:.72rem;margin:.9rem 0 0}
 .variations{margin-top:1.2rem;padding:1.1rem 1.3rem;border:1px solid var(--line);border-radius:18px;background:var(--paper)}.variations h2{font-size:1.15rem;margin:0 0 .3rem}.variations p{color:var(--muted);font-size:.78rem;margin:.2rem 0 .7rem}.variations ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.variant-line{color:var(--muted);font-weight:750;margin:.1rem 0 .6rem}.variant-line b{color:var(--danger)}
+.sel-group{margin:.9rem 0 0}.sel-group h3{margin:0 0 .4rem;font-size:.95rem}
+.sel-options{display:flex;flex-wrap:wrap;gap:.45rem}
+.sel-chip{min-height:44px;border:1px solid var(--line);border-radius:99px;background:white;color:var(--ink);padding:.5rem .85rem;font-weight:750;cursor:pointer}
+.sel-chip[aria-pressed=true]{background:var(--forest);border-color:var(--forest);color:white}
+.sel-presentations{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.fact-item{margin:.5rem 0;padding:.7rem .85rem;background:var(--mist);border-radius:11px}.fact-item p{margin:0;color:var(--ink)}
+.fact-caution{background:#fff3d6;border-left:3px solid #e0a924}.fact-danger{background:#ffe1dc;border-left:3px solid var(--danger)}
+.fact-source{display:block;margin-top:.35rem;color:var(--muted)}
+.detail-section h3{margin:1rem 0 .3rem;font-size:1.05rem}
 .variation{display:block;padding:.65rem .8rem;border:1px solid var(--line);border-radius:11px;background:white;color:var(--ink);text-decoration:none;font-size:.85rem}.variation:hover{border-color:var(--teal)}.variation.current{background:var(--mist);border-color:var(--teal)}
 .inquiry-dialog{border:0;border-radius:20px;padding:0;width:min(560px,calc(100vw - 32px));max-height:calc(100dvh - 48px);box-shadow:var(--shadow2)}.inquiry-dialog::backdrop{background:rgba(4,20,27,.65)}.inquiry-dialog form,.inquiry-dialog>div{padding:1.5rem;display:grid;gap:.7rem}.inquiry-dialog h2{margin:0}
 .dialog-product{padding:.8rem 1rem;background:var(--mist);border-radius:12px}

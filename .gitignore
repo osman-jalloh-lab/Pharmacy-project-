@@ -5,6 +5,7 @@ public/media/
 data/*.db
 data/*.db-shm
 data/*.db-wal
+data/catalogue-audit.json
 logs/
 coverage/
 .DS_Store

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grace Care Pharmacy CRM — Template</title>
+<style>
+  :root {
+    --navy: #0b3d2e;
+    --forest: #0a7c4f;
+    --teal: #00875c;
+    --copper: #ff5f45;
+    --amber: #ffb62e;
+    --ivory: #fbf6ea;
+    --paper: #fffdf7;
+    --mist: #e0f4e7;
+    --ink: #12291d;
+    --muted: #52705f;
+    --line: #c4e2cf;
+    --danger: #c73a2c;
+    --ok: #0f8a52;
+    --shadow: 0 18px 50px rgba(8,70,42,.16);
+    --radius: 18px;
+    --ease: cubic-bezier(.2,.8,.2,1);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--ivory);
+    color: var(--ink);
+    font: 400 15px/1.55 "Aptos","Segoe UI",sans-serif;
+  }
+  button, input, textarea, select { font: inherit; }
+  button, a { touch-action: manipulation; }
+  :focus-visible { outline: 3px solid var(--copper); outline-offset: 3px; }
+
+  .app {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+  }
+
+  /* Sidebar */
+  .side {
+    background: var(--navy);
+    color: #d8e9ed;
+    padding: 1.4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    color: white;
+    text-decoration: none;
+    font: 700 1rem Georgia, serif;
+    margin-bottom: 1.2rem;
+  }
+  .mark {
+    width: 38px; height: 38px; border-radius: 12px;
+    background: var(--forest); color: white;
+    display: grid; place-items: center;
+    font-weight: 800;
+  }
+  .nav-btn {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: 0;
+    color: #b8d8c8;
+    padding: .7rem .9rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .nav-btn:hover, .nav-btn.active {
+    background: rgba(255,255,255,.08);
+    color: white;
+  }
+  .nav-btn.active { border-left: 3px solid var(--copper); }
+  .nav-section {
+    color: #7aac96;
+    font-size: .68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    margin: .9rem 0 .2rem .6rem;
+  }
+
+  /* Main */
+  .main {
+    padding: 1.6rem 2rem;
+    overflow: auto;
+  }
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+  }
+  .topbar h1 {
+    margin: 0;
+    font: 700 1.6rem Georgia, serif;
+    letter-spacing: -.03em;
+  }
+  .topbar-actions {
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+  }
+  .pill {
+    background: var(--mist);
+    color: var(--forest);
+    border: 1px solid var(--line);
+    padding: .45rem .8rem;
+    border-radius: 99px;
+    font-weight: 750;
+    font-size: .78rem;
+  }
+  .btn {
+    min-height: 42px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: .55rem .9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-primary { background: var(--copper); color: #2c210d; }
+  .btn-soft { background: var(--mist); color: var(--forest); }
+  .btn-outline { border-color: var(--line); background: transparent; color: var(--forest); }
+
+  /* Stats */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+  }
+  .stat {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 6px 18px rgba(14,49,44,.06);
+  }
+  .stat-label {
+    color: var(--muted);
+    font-size: .72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+  .stat-value {
+    margin: .35rem 0 0;
+    font: 800 2rem Georgia, serif;
+    letter-spacing: -.03em;
+  }
+  .stat-hint {
+    color: var(--muted);
+    font-size: .75rem;
+    margin-top: .15rem;
+  }
+
+  /* Layout */
+  .panels {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .panel {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.2rem;
+    box-shadow: 0 6px 18px rgba(14,49,44,.06);
+  }
+  .panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .panel-head h2 {
+    margin: 0;
+    font: 700 1.15rem Georgia, serif;
+  }
+  .panel-meta {
+    color: var(--muted);
+    font-size: .75rem;
+    font-weight: 700;
+  }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    text-align: left;
+    padding: .65rem .4rem;
+    border-bottom: 1px solid var(--line);
+    font-size: .85rem;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 800;
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  td { color: var(--ink); }
+  tr:last-child td { border-bottom: 0; }
+
+  .badge {
+    display: inline-block;
+    padding: .28rem .55rem;
+    border-radius: 99px;
+    font-size: .68rem;
+    font-weight: 850;
+    border: 1px solid var(--line);
+    background: var(--mist);
+    color: var(--forest);
+  }
+  .badge-ok { background:#d2f7dd; border-color:#9fe4b8; color:#0b6236; }
+  .badge-warn { background:#ffeec4; border-color:#f4d58a; color:#7a5405; }
+  .badge-danger { background:#ffe1dc; border-color:#f5b3a8; color:#9c2f22; }
+  .badge-info { background:#d9efff; border-color:#a9d7f5; color:#14567f; }
+
+  .actions { display: flex; gap: .4rem; }
+  .link {
+    background: transparent;
+    border: 0;
+    color: var(--teal);
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0;
+    font-size: .82rem;
+  }
+  .link:hover { text-decoration: underline; }
+
+  /* Queue */
+  .queue-item {
+    display: grid;
+    grid-template-columns: 56px 1fr auto;
+    gap: .8rem;
+    padding: .7rem 0;
+    border-bottom: 1px solid var(--line);
+    align-items: center;
+  }
+  .queue-item:last-child { border-bottom: 0; }
+  .thumb {
+    width: 56px; height: 56px;
+    background: var(--mist);
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    color: var(--muted);
+    font-size: .7rem;
+    font-weight: 800;
+    overflow: hidden;
+  }
+  .thumb img { width:100%; height:100%; object-fit: contain; }
+  .queue-info b { display: block; font-size: .9rem; }
+  .queue-info span { color: var(--muted); font-size: .78rem; }
+
+  /* Bottom panels */
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  @media (max-width: 1100px) {
+    .app { grid-template-columns: 1fr; }
+    .side { display: none; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .panels, .bottom { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: 1fr; }
+    .main { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Sidebar -->
+  <nav class="side" aria-label="CRM">
+    <a class="brand" href="#"><span class="mark">+</span><span>Grace Care<br><small style="color:#7aac96;font-weight:500">CRM</small></span></a>
+    <div class="nav-section">Main</div>
+    <button class="nav-btn active">Dashboard</button>
+    <button class="nav-btn">Catalogue</button>
+    <button class="nav-btn">Inquiries</button>
+    <button class="nav-btn">Orders</button>
+    <button class="nav-btn">Customers</button>
+    <div class="nav-section">Review</div>
+    <button class="nav-btn">Image queue <span class="pill" style="margin-left:auto">12</span></button>
+    <button class="nav-btn">Products</button>
+    <button class="nav-btn">Medicines</button>
+    <button class="nav-btn">Facts & sources</button>
+    <div class="nav-section">System</div>
+    <button class="nav-btn">Settings</button>
+    <button class="nav-btn">Export</button>
+  </nav>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <div>
+        <h1>Dashboard</h1>
+        <p style="color:var(--muted);margin:.25rem 0 0;font-size:.85rem">Sunday, July 19, 2026 · 19:22 CT</p>
+      </div>
+      <div class="topbar-actions">
+        <span class="pill">Server: localhost:3000</span>
+        <span class="pill" style="background:#ffeec4;color:#7a5405;border-color:#f4d58a">Queue: 12 pending</span>
+        <button class="btn btn-soft">Refresh</button>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <section class="stats" aria-label="Key metrics">
+      <article class="stat">
+        <div class="stat-label">Products</div>
+        <div class="stat-value">100</div>
+        <div class="stat-hint">15 need reviewed image</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Inquiries</div>
+        <div class="stat-value">28</div>
+        <div class="stat-hint">5 new today</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Orders</div>
+        <div class="stat-value">14</div>
+        <div class="stat-hint">3 pending verification</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Review queue</div>
+        <div class="stat-value" style="color:var(--copper)">12</div>
+        <div class="stat-hint">658 image candidates</div>
+      </article>
+    </section>
+
+    <!-- Panels -->
+    <section class="panels">
+      <!-- Recent inquiries -->
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Recent inquiries</h2>
+          <span class="panel-meta">Last 24h</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Ref</th>
+              <th>Customer</th>
+              <th>Type</th>
+              <th>Status</th>
+              <th>Time</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>INQ-7X9K2M</code></td>
+              <td>Ibrahim Kamara</td>
+              <td>availability</td>
+              <td><span class="badge badge-ok">new</span></td>
+              <td>18:42</td>
+              <td class="actions"><button class="link">Open</button></td>
+            </tr>
+            <tr>
+              <td><code>INQ-7X9K2N</code></td>
+              <td>Fatima Conteh</td>
+              <td>wholesale</td>
+              <td><span class="badge badge-warn">under_review</span></td>
+              <td>17:15</td>
+              <td class="actions"><button class="link">Open</button></td>
+            </tr>
+            <tr>
+              <td><code>INQ-7X9K2P</code></td>
+              <td>Alpha Pharmacy</td>
+              <td>quotation</td>
+              <td><span class="badge badge-info">quoted</span></td>
+              <td>15:30</td>
+              <td class="actions"><button class="link">Open</button></td>
+            </tr>
+            <tr>
+              <td><code>INQ-7X9K2Q</code></td>
+              <td>Dr. S. Bangura</td>
+              <td>availability</td>
+              <td><span class="badge">awaiting_customer</span></td>
+              <td>12:05</td>
+              <td class="actions"><button class="link">Open</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- Review queue -->
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Image review queue</h2>
+          <span class="panel-meta">12 pending</span>
+        </div>
+        <div class="queue-item">
+          <div class="thumb"><img src="/media/006_amoxicillin/947cd417b4f786ea.jpg" alt=""></div>
+          <div class="queue-info">
+            <b>Amoxicillin 250 mg</b>
+            <span>New candidate · exact match?</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn-soft" style="min-height:34px;padding:.35rem .6rem">Review</button>
+          </div>
+        </div>
+        <div class="queue-item">
+          <div class="thumb"><img src="/media/008_ciprofloxacin/73be30b2e97528fc.jpg" alt=""></div>
+          <div class="queue-info">
+            <b>Ciprofloxacin 500 mg</b>
+            <span>New candidate · exact match?</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn-soft" style="min-height:34px;padding:.35rem .6rem">Review</button>
+          </div>
+        </div>
+        <div class="queue-item">
+          <div class="thumb"><img src="/media/012_ceftriaxone/5dfe5678d5c04c02.jpg" alt=""></div>
+          <div class="queue-info">
+            <b>Ceftriaxone 1 g vial</b>
+            <span>Duplicates skipped: 3</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn-soft" style="min-height:34px;padding:.35rem .6rem">Review</button>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:.6rem">
+          <button class="btn btn-outline" style="width:100%">View all 12 items →</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- Bottom -->
+    <section class="bottom">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Recent wholesale orders</h2>
+          <span class="panel-meta">This week</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Reference</th>
+              <th>Customer</th>
+              <th>Cartons</th>
+              <th>Total</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>ORD-7X9K2A</code></td>
+              <td>Alpha Pharmacy</td>
+              <td>24</td>
+              <td>USD 2,880.00</td>
+              <td><span class="badge badge-ok">pending_verification</span></td>
+              <td class="actions"><button class="link">Review</button></td>
+            </tr>
+            <tr>
+              <td><code>ORD-7X9K2B</code></td>
+              <td>Beta Medical</td>
+              <td>12</td>
+              <td>USD 1,440.00</td>
+              <td><span class="badge badge-info">awaiting_payment</span></td>
+              <td class="actions"><button class="link">Review</button></td>
+            </tr>
+            <tr>
+              <td><code>ORD-7X9K2C</code></td>
+              <td>Gamma Drugs</td>
+              <td>5</td>
+              <td>USD 600.00</td>
+              <td><span class="badge">quote_requested</span></td>
+              <td class="actions"><button class="link">Review</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Catalogue health</h2>
+          <span class="panel-meta">100 products</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Count</th>
+              <th>Gaps</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Antibiotics</td>
+              <td>24</td>
+              <td><span class="badge badge-warn">8 missing images</span></td>
+              <td class="actions"><button class="link">Filter</button></td>
+            </tr>
+            <tr>
+              <td>Analgesics</td>
+              <td>18</td>
+              <td><span class="badge badge-ok">Reviewed</span></td>
+              <td class="actions"><button class="link">Filter</button></td>
+            </tr>
+            <tr>
+              <td>Antimalarials</td>
+              <td>16</td>
+              <td><span class="badge badge-warn">5 missing images</span></td>
+              <td class="actions"><button class="link">Filter</button></td>
+            </tr>
+            <tr>
+              <td>Cardiovascular</td>
+              <td>12</td>
+              <td><span class="badge badge-ok">Reviewed</span></td>
+              <td class="actions"><button class="link">Filter</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="text-align:center;margin-top:.6rem">
+          <button class="btn btn-outline" style="width:100%">Open completeness panel →</button>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+</body>
+</html>

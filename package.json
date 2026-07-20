@@ -13,6 +13,7 @@
     "enrich:dailymed": "node --no-warnings scripts/enrich-dailymed.js",
     "seed:fixtures": "node --no-warnings scripts/seed-wholesale-fixtures.js",
     "seed:demo": "node --no-warnings scripts/seed-demo-wholesale.js",
+    "audit:catalogue": "node --no-warnings scripts/audit-catalogue.js",
     "test": "node --no-warnings --test test/api.test.js"
   },
   "engines": {

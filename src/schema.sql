@@ -5,6 +5,22 @@ CREATE TABLE IF NOT EXISTS schema_migrations (
   applied_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE IF NOT EXISTS medicines (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  slug TEXT NOT NULL UNIQUE,
+  generic_name TEXT NOT NULL UNIQUE,
+  preferred_display_name TEXT,
+  active_ingredient TEXT,
+  therapeutic_category TEXT,
+  description TEXT,
+  prescription_status TEXT,
+  is_sierra_leone_eml INTEGER CHECK(is_sierra_leone_eml IN (0,1)),
+  review_status TEXT NOT NULL DEFAULT 'needs_review',
+  last_medical_review_at TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE TABLE IF NOT EXISTS products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   slug TEXT NOT NULL UNIQUE,
@@ -38,6 +54,22 @@ CREATE TABLE IF NOT EXISTS products (
   wholesale_enabled INTEGER NOT NULL DEFAULT 0 CHECK(wholesale_enabled IN (0,1)),
   direct_checkout_enabled INTEGER NOT NULL DEFAULT 0 CHECK(direct_checkout_enabled IN (0,1)),
   packaging_review_status TEXT NOT NULL DEFAULT 'needs_review' CHECK(packaging_review_status IN ('needs_review','confirmed')),
+  medicine_id INTEGER REFERENCES medicines(id),
+  concentration TEXT,
+  route TEXT,
+  country_of_manufacture TEXT,
+  container_type TEXT,
+  container_volume_ml REAL CHECK(container_volume_ml IS NULL OR container_volume_ml > 0),
+  formulation_state TEXT CHECK(formulation_state IS NULL OR formulation_state IN ('solution','suspension','powder','concentrate','emulsion')),
+  requires_reconstitution INTEGER CHECK(requires_reconstitution IN (0,1) OR requires_reconstitution IS NULL),
+  dilution_required INTEGER CHECK(dilution_required IN (0,1) OR dilution_required IS NULL),
+  dose_container TEXT CHECK(dose_container IS NULL OR dose_container IN ('single_dose','multidose')),
+  professional_use_only INTEGER CHECK(professional_use_only IN (0,1) OR professional_use_only IS NULL),
+  cold_chain_required INTEGER CHECK(cold_chain_required IN (0,1) OR cold_chain_required IS NULL),
+  storage_temperature TEXT,
+  protect_from_light INTEGER CHECK(protect_from_light IN (0,1) OR protect_from_light IS NULL),
+  storage_requirements TEXT,
+  identity_key TEXT,
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   last_medical_review_at TEXT
@@ -83,9 +115,14 @@ CREATE TABLE IF NOT EXISTS product_images (
 CREATE INDEX IF NOT EXISTS idx_images_product ON product_images(product_id, is_verified, sort_order);
 CREATE INDEX IF NOT EXISTS idx_images_hash ON product_images(file_hash);
 
+-- Facts carry a scope: product-level facts describe one exact product record;
+-- medicine-level facts apply to every product of the canonical medicine.
+-- Partial unique indexes are created in src/db.js after legacy-table rebuild.
 CREATE TABLE IF NOT EXISTS medicine_facts (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  product_id INTEGER NOT NULL REFERENCES products(id) ON DELETE CASCADE,
+  product_id INTEGER REFERENCES products(id) ON DELETE CASCADE,
+  medicine_id INTEGER REFERENCES medicines(id) ON DELETE CASCADE,
+  scope TEXT NOT NULL DEFAULT 'product' CHECK(scope IN ('product','medicine')),
   fact_type TEXT NOT NULL,
   title TEXT NOT NULL,
   content TEXT,
@@ -93,7 +130,7 @@ CREATE TABLE IF NOT EXISTS medicine_facts (
   source_id INTEGER REFERENCES sources(id),
   review_status TEXT NOT NULL DEFAULT 'pending',
   last_reviewed_at TEXT,
-  UNIQUE(product_id, fact_type, source_id)
+  CHECK((scope='product' AND product_id IS NOT NULL) OR (scope='medicine' AND medicine_id IS NOT NULL))
 );
 
 CREATE TABLE IF NOT EXISTS review_queue (
@@ -139,7 +176,14 @@ CREATE TABLE IF NOT EXISTS inquiry_items (
   boxes_per_carton_snapshot INTEGER,
   units_per_carton_snapshot INTEGER,
   price_per_carton_cents_snapshot INTEGER,
-  currency_snapshot TEXT
+  currency_snapshot TEXT,
+  unit_kind_snapshot TEXT,
+  dosage_form_snapshot TEXT,
+  strength_snapshot TEXT,
+  brand_snapshot TEXT,
+  manufacturer_snapshot TEXT,
+  container_type_snapshot TEXT,
+  package_size_snapshot TEXT
 );
 
 CREATE TABLE IF NOT EXISTS orders (
@@ -175,7 +219,16 @@ CREATE TABLE IF NOT EXISTS order_items (
   units_per_carton_snapshot INTEGER,
   price_per_carton_cents_snapshot INTEGER,
   line_subtotal_cents INTEGER,
-  currency_snapshot TEXT
+  currency_snapshot TEXT,
+  unit_kind_snapshot TEXT,
+  dosage_form_snapshot TEXT,
+  strength_snapshot TEXT,
+  concentration_snapshot TEXT,
+  brand_snapshot TEXT,
+  manufacturer_snapshot TEXT,
+  container_type_snapshot TEXT,
+  container_volume_ml_snapshot REAL,
+  package_size_snapshot TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_order_items_order ON order_items(order_id);
 
